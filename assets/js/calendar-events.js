@@ -606,7 +606,6 @@ const calendarEvents = Object.freeze([
     location: "Google Form",
     description: "Danusan Dies Natalis x Pekan IT Batch 3",
     dialogContent: `
-
       <h3><strong>🔥 [PRE-ORDER DANUSAN DIES NATALIS HIMTIKA IX X PEKAN IT 2026 #BATCH 3] 🍪🥟✨</strong></h3><br>
 
       <span>🔥 Hallo Fasilkomers! 👋</span><br>
@@ -758,58 +757,347 @@ const calendarEvents = Object.freeze([
     timeLabel: "selesai",
     category: "bem",
     organizer: "BEM Fasilkom Unsika",
-    location: "coming soon",
+    location: "Agro Kartika, Karawang",
     description: "Program pembinaan dan pengenalan mahasiswa baru Fasilkom Unsika angkatan 2026 yang bertujuan membekali pengetahuan, keterampilan, dan sikap dalam manajemen organisasi sekaligus menumbuhkan rasa kekeluargaan, kebersamaan, dan keakraban antar mahasiswa dalam lingkungan Fasilkom.",
     dialogContent: ``,
-    image: "",
+    image: "./assets/images/events/bg-lkmm.webp",
     link: "https://www.instagram.com/lkmminaufasilkom/",
     featured: true
   },
   {
-    title: "IT Bootcamp",
+    title: "IT Bootcamp: Independent Project 2026",
     start: "2026-10-03T06:00:00",
     end: "2026-10-04T23:59:00",
     timeLabel: "selesai",
     category: "himtika",
     organizer: "HIMTIKA Unsika",
-    location: "Coming soon",
+    location: "Saung Endah, Karawang",
     description: "Kegiatan pengenalan lingkungan Informatika Unsika untuk mengembangkan hardskill dan softskill serta membanung kebersamaan antarmahasiswa baru.",
     dialogContent: `
+      <h3><strong>📢 [ 𝐈𝐓 𝐁𝐎𝐎𝐓𝐂𝐀𝐌𝐏: 𝐈𝐍𝐃𝐄𝐏𝐄𝐍𝐃𝐄𝐍𝐓 𝐏𝐑𝐎𝐉𝐄𝐂𝐓 𝟐𝟎𝟐𝟔 ] 📢</strong></h3><br>
+
+      <p>Halo Informatics 2026! 👋🏻 </p>
+      <p>The day is finally here!</p>
+
       <p>
-        IT Bootcamp merupakan kegiatan pengenalan lingkungan
-        Informatika UNSIKA untuk mengembangkan kemampuan teknis,
-        kemampuan interpersonal, dan kebersamaan mahasiswa.
+      Setelah melalui berbagai persiapan, akhirnya hari yang ditunggu-tunggu tiba! Saatnya memulai perjalanan IT Bootcamp: Independent Project 2026. 💻
       </p>
 
-      <h3>Informasi Kegiatan</h3>
+      <p><strong>
+      <span>📅 𝐇𝐚𝐫𝐢 𝐓𝐚𝐧𝐠𝐠𝐚𝐥: 𝐒𝐚𝐛𝐭𝐮 𝐬𝐝. 𝐌𝐢𝐧𝐠𝐠𝐮, 𝟑 - 𝟒 𝐎𝐤𝐭𝐨𝐛𝐞𝐫 𝟐𝟎𝟐𝟔</span><br>
+      <span>🕐 𝐖𝐚𝐤𝐭𝐮: 𝟎𝟔.𝟎𝟎 𝐖𝐈𝐁 - 𝐒𝐞𝐥𝐞𝐬𝐚𝐢.</span><br>
+      <span>📍 𝐋𝐨𝐤𝐚𝐬𝐢: 𝐒𝐚𝐮𝐧𝐠 𝐄𝐧𝐝𝐚𝐡, 𝐊𝐚𝐫𝐚𝐰𝐚𝐧𝐠</span>
+      </strong></p>
 
-      <ul>
-        <li>Peserta wajib hadir tepat waktu.</li>
-        <li>Membawa perlengkapan yang telah ditentukan.</li>
-        <li>Mengikuti seluruh rangkaian kegiatan.</li>
-      </ul>
-
-      <p class="event-dialog__note">
-        Informasi lebih lengkap dapat dilihat melalui tautan
-        resmi kegiatan.
+      <p>
+      Siapkan semangat dan energi terbaik kalian untuk belajar, berkolaborasi, mendapatkan pengalaman baru, dan menciptakan cerita bersama keluarga Informatics 2026! 🤝✨
+      </p>
+      
+      <p>Today is the day. Let’s make it memorable! 🙌🏻✨</p>
+      <p>See you, Informatics 2026! 🚀</p>
+      
+      <p>
+        #ITBootcamp2026<br>
+        #HIMTIKA2026<br>
+        #KabinetSelaras<br>
+        #BersamaKitaJaya<br>
+        #FasilkomUnsika
       </p>
     `,
-    image: "",
+    image: "./assets/images/events/bg-itb.webp",
     link: "https://www.instagram.com/himtika_unsika/",
     featured: true
   },
   {
-    title: "Legislative School",
-    start: "2026-10-10T06:00:00",
-    end: "2026-10-10T23:59:00",
+    title: "Pre-order Merchandise Dies Natalis HIMTIKA IX",
+    start: "2026-10-06T06:00:00",
+    end: "2026-10-12T23:59:00",
     timeLabel: "selesai",
-    category: "blm",
-    organizer: "BLM Fasilkom Unsika",
-    location: "Coming soon",
-    description: "Legislative School adalah kegiatan seperti seminar/talkshow perihal ranah legislatif dimana akan mengundang narasumber yang ahli dibidangnya seperti anggota DPR/DPRD serta akan ada simulasi persidangan di akhir kegiatan.",
+    category: "himtika",
+    organizer: "HIMTIKA Unsika",
+    location: "Google Form",
+    description: "Open Pre-order merchandise Dies Natalis HIMTIKA IX.",
+    dialogContent: `
+      <h3><strong>🌊[𝐎𝐏𝐄𝐍 𝐏𝐑𝐄-𝐎𝐑𝐃𝐄𝐑 𝐌𝐄𝐑𝐂𝐇𝐀𝐍𝐃𝐈𝐒𝐄 𝐃𝐈𝐄𝐒 𝐍𝐀𝐓𝐀𝐋𝐈𝐒 𝐇𝐈𝐌𝐓𝐈𝐊𝐀 𝐈𝐗] 🌊✨</strong></h3><br>
+
+      <span>Hi, Future Sailor! 🌊🐙</span><br>
+      <span>Dive deeper and grow stronger bersama Dies Natalis HIMTIKA IX!</span><br>
+      <p>
+        Saatnya lengkapi harimu dengan Official Merchandise Dies Natalis HIMTIKA IX yang hadir dengan desain spesial untuk kamu! 
+      </p>
+
+      <span><strong>🛍️ AVAILABLE MERCHANDISE</strong></span><br>
+      <ul>
+        <li>
+          T-Shirt — <strong>90K</strong>
+        </li>
+        <li>
+          Totebag — <strong>30K</strong>
+        </li>
+        <li>
+          Sticker Pack — <strong>7K</strong>
+        </li>
+        <li>
+          Keychain — <strong>10K</strong>
+        </li>
+      </ul>
+      
+      <span><strong>PAKET BUNDLING</strong></span><br>
+      <span><em>(All Bundling = Free Sticker)</em></span><br>
+      <ul>
+        <li>
+          <strong>Bundling 1</strong> — Little Ocean Pack: Sticker Pack + Keychain — 15K
+        </li>
+        <li>
+          <strong>Bundling 2</strong> — Ocean Pack: T-Shirt + Totebag — 115K
+        </li>
+        <li>
+          <strong>Bundling 3</strong> — Buddy Pack: 2 T-Shirt — 170K
+        </li>
+        <li>
+          <strong>Bundling 4</strong> — Full Ocean Pack: T-Shirt + Totebag + Sticker Pack + Keychain — 125K
+        </li>
+      </ul>
+
+      <br><span><strong>📅 Timeline:</strong></span><br>
+      <p>
+        <span>Open PO: 6-12 Oktober 2026</span><br>
+        <span>Pelunasan: 13-14 Oktober 2026</span><br>
+        <span>Pengambilan: 15 Oktober 2026</span><br>
+      </p>
+
+      <p>
+        🛒 Order sekarang di:</strong><br>
+        <a href="https://bit.ly/OpenPOMerchandiseDiesNatHIMTIKAIX">
+          https://bit.ly/OpenPOMerchandiseDiesNatHIMTIKAIX
+        </a>
+      </p>
+
+      <p>
+        <strong>📲 Contact Person:</strong><br>
+        <a href="https://wa.me/6282190158256">https://wa.me/6282190158256</a> (Bintang)
+      </p>
+      <p>
+        <strong>🌐 Info lengkap:</strong><br>
+        <a href="https://instagram.com/himtika_unsika">@himtika_unsika </a> | <a href="https://instagram.com/diesnatalis.himtika">@diesnatalis.himtika</a><br> 
+        <a href="https://himtika.cs.unsika.ac.id">himtika.cs.unsika.ac.id</a>
+      </p>
+
+      <p>
+        #DiesNatalisIX<br>
+        #DiveDeeperGrowStronger<br>
+        #HIMTIKA2026<br>
+        #BersamaKitaJaya<br>
+        #KabinetSelaras
+      </p>
+    `,
+    image: "./assets/images/events/bg-merchandise-diesnat.webp",
+    link: "https://www.instagram.com/diesnatalis.himtika/",
+    featured: true
+  },
+  {
+    title: "Pendaftaran HIMTIKA Awards 2026",
+    start: "2026-10-12T06:00:00",
+    end: "2026-10-14T23:59:00",
+    timeLabel: "selesai",
+    category: "himtika",
+    organizer: "HIMTIKA Unsika",
+    location: "Google Form",
+    description: "Pendaftaran untuk mahasiswa Informatika Unsika yang memiliki pengetahuan dan bakat yang akan menjadi nominasi penghargaan.",
+    dialogContent: `
+      <h3><strong>🏆[𝐏𝐄𝐍𝐃𝐀𝐅𝐓𝐀𝐑𝐀𝐍 𝐇𝐈𝐌𝐓𝐈𝐊𝐀 𝐀𝐖𝐀𝐑𝐃𝐒 𝟐𝟎𝟐𝟔]🏆</strong></h3><br>
+
+      <p>Halo, Informatics! 🙌🏻</p>
+      <p>
+        Dalam rangka memberikan apresiasi kepada mahasiswa Informatika yang aktif berkarya, mengembangkan kemampuan, dan menunjukkan kontribusi melalui bidang teknologi, kami dari Himpunan Mahasiswa Informatika (HIMTIKA) mempersembahkan <strong>HIMTIKA AWARDS 2026 🏆</strong>
+      </p>
+      <p>
+        <strong>HIMTIKA AWARDS</strong> merupakan bentuk apresiasi bagi mahasiswa Informatika yang menunjukkan kemampuan dan karya terbaiknya dalam bidang teknologi dan Informatika.
+      </p>
+      <p>
+        Untuk itu, kami mengajak seluruh mahasiswa Informatika untuk mendaftarkan diri dan mengikuti HIMTIKA AWARDS 2026 pada kategori berikut:
+      </p>
+
+      <ol>
+        <li>
+          <strong>Digital Development 💻</strong>
+        </li>
+        <li>
+          <strong>Digital Literacy 🌐</strong>
+        </li>
+      </ol>
+
+      <p>
+        <strong>🔗 Form Pendaftaran:</strong><br>
+        <a href="https://forms.gle/iT8HVQPw9aADAC689">
+          https://forms.gle/iT8HVQPw9aADAC689
+        </a>
+      </p>
+
+      <p><strong>Pendaftaran dapat dilakukan hingga 14 Oktober 2026.</strong></p>
+
+      <p>
+        <strong>Contact Person:</strong><br>
+        <span>📞 <a href="https://wa.me/qr/P3AW4T6FVF3DH1">https://wa.me/qr/P3AW4T6FVF3DH1</a>(Kayla)</span>
+      </p>
+      
+      <p>
+        <span>Salam hangat,</span><br>
+        <span>Departemen HC HIMTIKA</span>
+      </p>
+
+      <p>
+        #HIMTIKA2026<br>
+        #BersamaKitaJaya<br>
+        #KabinetSelaras<br>
+        #FasilkomUnsika
+      </p>
+    `,
+    image: "./assets/images/events/bg-pendaftaran-himtika-award.webp",
+    link: "https://www.instagram.com/diesnatalis.himtika/",
+    featured: true
+  },
+  {
+    title: "Forum Silaturahmi Fasilkom 2026",
+    start: "2026-10-13T14:00:00",
+    end: "2026-10-13T23:59:00",
+    timeLabel: "selesai",
+    category: "bem",
+    organizer: "BEM Fasilkom Unsika",
+    location: "Gedung Fasilkom Lantai 4, Ruang 78",
+    description: "Kegiatan wadah bagi mahasiswa dan civitas akademika Fasilkom untuk tumbuh bersama, mempererat silaturahmi, serta menyampaikan aspirasi dan mencari solusi demi kemajuan Fasilkom.",
+    dialogContent: `
+      <h3><strong>📢 [𝐅𝐎𝐑𝐔𝐌 𝐒𝐈𝐋𝐀𝐓𝐔𝐑𝐀𝐇𝐌𝐈 𝐅𝐀𝐒𝐈𝐋𝐊𝐎𝐌 𝟐𝟎𝟐𝟔] 📢</strong></h3><br>
+
+      <p>Halo Fasilkomers! 🙌🏻</p>
+      <p>
+        Yuk hadir di FORSI (Forum Silaturahmi) Fasilkom 2026! 💬🤝
+      </p>
+      <p>
+        Kegiatan ini menjadi wadah bagi mahasiswa dan civitas akademika Fasilkom untuk tumbuh bersama, mempererat silaturahmi, serta menyampaikan aspirasi dan mencari solusi demi kemajuan Fasilkom. Mari bersama-sama membangun ruang diskusi yang terbuka, penuh kebersamaan, dan bermakna! ✨
+      </p>
+      
+      <span><strong>Kegiatan ini dilaksanakan pada:</strong></span><br>
+      <p>
+      <span><strong>🗓️ Selasa, 13 Oktober 2026</strong></span><br>
+      <span><strong>⏰ 14.00 WIB – Selesai</strong></span><br>
+      <span><strong>📍 Gedung Fasilkom Lantai 4, Ruang 78</strong></span><br>
+      </p>
+
+      <p>
+        Jangan lewatkan kesempatan untuk menyampaikan aspirasi dan ikut berkontribusi dalam mewujudkan Fasilkom yang lebih baik! Suara kita, perubahan bersama! 🙌🏻
+      </p>
+
+      <p>
+        <strong>📞 Contact Person</strong><br>
+        <span>Gilbran – <a href="https://wa.me/6285891189980">https://wa.me/6285891189980</a></span>
+      </p>
+
+      <span>━━━━</span><br>
+      <p>
+        <span>Kabinet Sahitya</span><br>
+        <span>BEM Fasilkom UNSIKA 2026</span><br>
+        <span>Bidang Sosial dan Politik</span><br>
+        <span>Departemen Advokasi Kesejahteraan Mahasiswa</span>
+      </p>
+      <span>━━━━</span>
+
+      <p>
+        #KabinetSahitya<br>
+        #BEMFasilkomUnsika2026<br>
+        #TogetherMovingForward
+      </p>
+    `,
+    image: "./assets/images/events/bg-forum-silaturahmi-fasilkom-2026.webp",
+    link: "https://www.instagram.com/bemfasilkomunsika/",
+    featured: true
+  },
+  {
+    title: "Open Regist Pendaftaran Webinar Nasional Dies Natalis HIMTIKA IX",
+    start: "2026-10-12T06:00:00",
+    end: "2026-10-16T23:59:00",
+    timeLabel: "selesai",
+    category: "himtika",
+    organizer: "HIMTIKA Unsika",
+    location: "Google Form",
+    description: "Pembukaan pendaftaran webinar nasional dies natalis HIMTIKA yang ke-9.",
+    dialogContent: `
+      <h3><strong>🌊 [𝐎𝐏𝐄𝐍 𝐑𝐄𝐆𝐈𝐒𝐓𝐑𝐀𝐓𝐈𝐎𝐍 — 𝐖𝐄𝐁𝐈𝐍𝐀𝐑 𝐍𝐀𝐒𝐈𝐎𝐍𝐀𝐋 𝐃𝐈𝐄𝐒 𝐍𝐀𝐓𝐀𝐋𝐈𝐒 𝐇𝐈𝐌𝐓𝐈𝐊𝐀 𝐈𝐗] 🌊✨</strong></h3><br>
+
+      <span>Hi, Future Sailor! 🌊🐙</span><br>
+      <p>
+        Siap menghadapi tantangan dunia digital? Yuk, tingkatkan wawasanmu tentang Cybersecurity, Digital Safety, dan penggunaan AI yang bertanggung jawab!
+      </p>
+
+      <span><strong>Catat jadwalnya, jangan sampai kelewatan:</strong></span><br>
+      <p>
+      <span>📅 Sabtu, 17 Oktober 2026</span><br>
+      <span>⏰ 08.00 WIB – selesai</span><br>
+      <span>📍 Zoom Meeting (Online)</span><br>
+      <span>💰 HTM: Rp10.000</span>
+      </p>
+
+      <span><strong>✨ BENEFITS</strong></span><br>
+      <ul>
+        <li>
+          <strong>Free Class Dicoding</strong> untuk 100 pendaftar pertama
+        </li>
+        <li>
+          Poin SKP
+        </li>
+        <li>
+          E-Certificate
+        </li>
+        <li>
+          Insight keamanan digital dan AI
+        </li>
+        <li>
+          Diskusi Interaktif
+        </li>
+      </ul>
+
+      <p><strong>🗓️ Pendaftaran: 12–16 Oktober 2026</strong></p>
+      
+      <p>
+        <strong>🛒 Daftar sekarang!</strong><br>
+        <a href="https://bit.ly/PendaftaranWebinarNasionalDiesNatalisHIMTIKAIX">
+          https://bit.ly/PendaftaranWebinarNasionalDiesNatalisHIMTIKAIX
+        </a>
+      </p>
+
+      <p>
+        <strong>📲 Contact Person:</strong><br>
+        <span>Aqilah — <a href="https://wa.me/6287819100690">https://wa.me/6287819100690</a></span><br>
+        <span>Tantawi — <a href="https://wa.me/6285773010587">https://wa.me/6285773010587</a></span>
+      </p>
+      
+      <p>DIVE DEEPER. GROW STRONGER. 🌊</p>
+
+      <p>
+        #DiesNatalisIX<br>
+        #DiveDeeperGrowStronger<br>
+        #HIMTIKA2026<br>
+        #BersamaKitaJaya<br>
+        #KabinetSelaras<br>
+        #FasilkomUnsika
+      </p>
+    `,
+    image: "./assets/images/events/bg-open-regist-webinar-diesnat.webp",
+    link: "https://www.instagram.com/diesnatalis.himtika/",
+    featured: true
+  },
+  {
+    title: "Webinar Nasional Dies Natalis HIMTIKA IX",
+    start: "2026-10-17T08:00:00",
+    end: "2026-10-17T23:59:00",
+    timeLabel: "selesai",
+    category: "himtika",
+    organizer: "HIMTIKA Unsika",
+    location: "Zoom Meeting (Online)",
+    description: "Webinar Nasional Dies Natalis HIMTIKA bertemakan meningkatkan wawasan tentang Cybersecurity, Digital Safety, dan penggunaan AI yang bertanggung jawab!",
     dialogContent: ``,
-    image: "",
-    link: "https://www.instagram.com/ls.fasilkomunsika/",
+    image: "./assets/images/events/bg-open-regist-webinar-diesnat.webp",
+    link: "https://www.instagram.com/diesnatalis.himtika/",
     featured: true
   },
   {
@@ -827,6 +1115,63 @@ const calendarEvents = Object.freeze([
     featured: true
   },
   {
+    title: "Seminar Nasional Fasilkom Fest 2026",
+    start: "2026-10-24T07:00:00",
+    end: "2026-10-24T23:59:00",
+    timeLabel: "selesai",
+    category: "bem",
+    organizer: "BEM Fasilkom Unsika",
+    location: "Hybrid: Aula Husni Hamid (Offline) & Zoom Meeting (Online)",
+    description: "Seminar Nasional yang diadakan oleh Fasilkom dengan rangkaian acara materi serta pameran IT",
+    dialogContent: `
+      <h3><strong>✨🤖 [ OPEN REGISTRASI SEMINAR NASIONAL FASILKOM FEST 2026 ] 🤖✨</strong></h3><br>
+
+      <p><i>"Work Smarter, Stay Human: AI as Your Strategic Co-Pilot"</i></p>
+      <p>Halo, Fellas! 👋🏻</p>
+      <p>
+      AI kini bukan lagi sekadar tren, tapi sudah jadi asisten harian kita. Namun di balik kemudahannya, ada risiko ketergantungan yang bisa mengikis kreativitas dan pola pikir kritis kita.
+      </p>
+      <p>
+        Di seminar ini kita akan belajar bagaimana menjadikan AI sebagai co-pilot strategis, bukan pengganti. Agar kita bisa menjadi lebih cerdas, produktif, dan tetap menjunjung etika serta nilai kemanusiaan.
+      </p>
+        
+      <p>Yuk, ikut Seminar Nasional Fasilkom Fest 2026!</p>
+      
+      <span><strong>Catat tanggal pelaksanaannya‼️</strong></span><br>
+      <p>
+      <span><strong>📅 Sabtu, 24 Oktober 2026</strong></span><br>
+      <span><strong>⏰ 07.00 WIB – Selesai</strong></span><br>
+      <span><strong>📍 Hybrid (Aula Husni Hamid & Zoom Meeting)</strong></span><br>
+      </p>
+
+      <p>
+        <strong><i>🔗 Link Pendaftaran: </i></strong><br>
+        <a href="https://s.id/RegistrasiSeminarNasionalFasilkomFest2026">
+          https://s.id/RegistrasiSeminarNasionalFasilkomFest2026
+        </a>
+      </p>
+
+      <span><strong><i>✨ Benefit: </i></strong></span><br>
+      <ul>
+        <li>E-Sertifikat</li>
+        <li>Poin SKP</li>
+        <li>Ilmu Bermanfaat</li>
+        <li>Snackbox (<i>offline</i>)</li>
+      </ul>
+
+      <p>
+        <strong><i>📞 Contact Person: </i></strong><br>
+        <span><a href="https://wa.me/6282258956295">https://wa.me/6282258956295</a> (Fahmi)</span><br>
+        <span><a href="https://wa.me/62895604013700">https://wa.me/62895604013700</a> (Nazwa)</span>
+      </p>
+      
+      <p>Jangan cuma jadi pengguna AI, jadilah pengendalinya! 🚀</p>
+    `,
+    image: "./assets/images/events/bg-seminar-fasilkom-fest.webp",
+    link: "https://www.instagram.com/fasilkom.fest/",
+    featured: true
+  },
+  {
     title: "Penutupan Pelaksanaan Study Club",
     start: "2026-10-25T08:00:00",
     end: "2026-10-25T23:59:00",
@@ -838,6 +1183,61 @@ const calendarEvents = Object.freeze([
     dialogContent: ``,
     image: "",
     link: "https://www.instagram.com/studyclub_id/",
+    featured: true
+  },
+  {
+    title: "Seminar Nasional Legislative School 2026",
+    start: "2026-10-31T08:30:00",
+    end: "2026-10-31T23:59:00",
+    timeLabel: "selesai",
+    category: "blm",
+    organizer: "BLM Fasilkom Unsika",
+    location: "Galeri Pemda Karawang",
+    description: "Legislative School adalah kegiatan seperti seminar/talkshow perihal ranah legislatif dimana akan mengundang narasumber yang ahli dibidangnya seperti anggota DPR/DPRD serta akan ada simulasi persidangan di akhir kegiatan.",
+    dialogContent: `
+      <h3><strong>📢 𝐏𝐄𝐍𝐃𝐀𝐅𝐓𝐀𝐑𝐀𝐍 𝐒𝐄𝐌𝐈𝐍𝐀𝐑 𝐍𝐀𝐒𝐈𝐎𝐍𝐀𝐋 𝐋𝐄𝐆𝐈𝐒𝐋𝐀𝐓𝐈𝐕𝐄 𝐒𝐂𝐇𝐎𝐎𝐋 𝟐𝟎𝟐𝟔 𝐓𝐄𝐋𝐀𝐇 𝐃𝐈𝐁𝐔𝐊𝐀 📢</strong></h3><br>
+
+      <span>​Halo, rekan-rekan Mahasiswa dan Masyarakat Umum!</span>
+      <p>
+        ​Badan Legislatif Mahasiswa (BLM) FASILKOM UNSIKA menyelenggarakan Seminar Nasional Legislative School 2026 dengan tema “Etika dan Integritas Legislator sebagai Pilar Utama Tata Kelola Demokrasi yang Baik”.
+      </p>
+      <p>
+        ​Kegiatan ini bertujuan untuk mengenalkan dasar-dasar mengenai apa itu lembaga legislatif, serta membahas dinamika dan isu-isu yang berkaitan dengan politik. Jangan lewatkan kesempatan untuk belajar dan berdiskusi langsung!
+      </p>
+      
+      <span><strong>​📌 Catat Tanggalnya:</strong></span><br>
+      <p>
+      <span><strong>🗓️ Hari, Tanggal: Sabtu, 31 Oktober 2026</strong></span><br>
+      <span><strong>⏰ Waktu: 08.00 WIB s.d. Selesai</strong></span><br>
+      <span><strong>📍 Tempat: To Be Announced</strong></span><br>
+      </p>
+
+      <span><strong>🎁 Benefit Peserta:</strong></span><br>
+      <ul>
+        <li>E-Certificate</li>
+        <li>20 SKP (Khusus Mahasiswa UNSIKA)</li>
+        <li>Knowledge</li>
+        <li>Merchandise (<i>Khusus 100 peserta pertama yang hadir pada Hari H</i>)</li>
+        <li>Doorprize</li>
+      </ul>
+
+      <p>
+        <strong><i>🔗 Link Pendaftaran: </i></strong><br>
+        <a href="https://unsika.link/legislativeschool2026">
+          https://unsika.link/legislativeschool2026
+        </a>
+      </p>
+
+      <p>​Acara ini terbuka untuk UMUM! Segera daftarkan dirimu karena kuota terbatas.</p>
+
+      <p>
+        <strong>📞 Contact Person: </strong><br>
+        <span><a href="https://wa.me/6285142375037">https://wa.me/6285142375037</a> (Arra)</span><br>
+        <span><a href="https://wa.me/6281289372757">https://wa.me/6281289372757</a> (Najwa)</span>
+      </p>
+    `,
+    image: "./assets/images/events/bg-seminar-legislative-school.webp",
+    link: "https://www.instagram.com/ls.fasilkomunsika/",
     featured: true
   }
 ].map((event, index) => ({
