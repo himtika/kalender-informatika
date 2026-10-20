@@ -811,7 +811,7 @@ const calendarEvents = Object.freeze([
   {
     title: "Pre-order Merchandise Dies Natalis HIMTIKA IX",
     start: "2026-10-06T06:00:00",
-    end: "2026-10-12T23:59:00",
+    end: "2026-10-11T23:59:00",
     timeLabel: "selesai",
     category: "himtika",
     organizer: "HIMTIKA Unsika",
@@ -1015,63 +1015,64 @@ const calendarEvents = Object.freeze([
   {
     title: "Open Regist Pendaftaran Webinar Nasional Dies Natalis HIMTIKA IX",
     start: "2026-10-12T06:00:00",
-    end: "2026-10-16T23:59:00",
+    end: "2026-10-24T23:59:00",
     timeLabel: "selesai",
     category: "himtika",
     organizer: "HIMTIKA Unsika",
     location: "Google Form",
     description: "Pembukaan pendaftaran webinar nasional dies natalis HIMTIKA yang ke-9.",
     dialogContent: `
-      <h3><strong>🌊 [𝐎𝐏𝐄𝐍 𝐑𝐄𝐆𝐈𝐒𝐓𝐑𝐀𝐓𝐈𝐎𝐍 — 𝐖𝐄𝐁𝐈𝐍𝐀𝐑 𝐍𝐀𝐒𝐈𝐎𝐍𝐀𝐋 𝐃𝐈𝐄𝐒 𝐍𝐀𝐓𝐀𝐋𝐈𝐒 𝐇𝐈𝐌𝐓𝐈𝐊𝐀 𝐈𝐗] 🌊✨</strong></h3><br>
+      <h3><strong>🌊 [EXTENDED REGISTRATION — WEBINAR NASIONAL DIES NATALIS HIMTIKA IX] 🌊</strong></h3><br>
 
-      <span>Hi, Future Sailor! 🌊🐙</span><br>
+      <p>Hi, Future Sailor! ⚓✨</p>
       <p>
-        Siap menghadapi tantangan dunia digital? Yuk, tingkatkan wawasanmu tentang Cybersecurity, Digital Safety, dan penggunaan AI yang bertanggung jawab!
+        <strong>📢 PENDAFTARAN DIPERPANJANG!</strong>   
       </p>
-
-      <span><strong>Catat jadwalnya, jangan sampai kelewatan:</strong></span><br>
       <p>
-      <span>📅 Sabtu, 17 Oktober 2026</span><br>
-      <span>⏰ 08.00 WIB – selesai</span><br>
-      <span>📍 Zoom Meeting (Online)</span><br>
-      <span>💰 HTM: Rp10.000</span>
+        Yuk, perluas wawasanmu bersama <strong>Muhammad Akbar Maulana</strong> dalam Webinar Nasional Dies Natalis HIMTIKA IX dengan tema:
       </p>
-
-      <span><strong>✨ BENEFITS</strong></span><br>
-      <ul>
-        <li>
-          <strong>Free Class Dicoding</strong> untuk 100 pendaftar pertama
-        </li>
-        <li>
-          Poin SKP
-        </li>
-        <li>
-          E-Certificate
-        </li>
-        <li>
-          Insight keamanan digital dan AI
-        </li>
-        <li>
-          Diskusi Interaktif
-        </li>
-      </ul>
-
-      <p><strong>🗓️ Pendaftaran: 12–16 Oktober 2026</strong></p>
-      
       <p>
-        <strong>🛒 Daftar sekarang!</strong><br>
-        <a href="https://bit.ly/PendaftaranWebinarNasionalDiesNatalisHIMTIKAIX">
-          https://bit.ly/PendaftaranWebinarNasionalDiesNatalisHIMTIKAIX
-        </a>
+        <strong>“Peran Kesadaran Digital, Keamanan Siber, dan Inovasi yang Bertanggung Jawab dalam Membangun Masa Depan Digital” 🔐🤖</strong>
       </p>
 
       <p>
-        <strong>📲 Contact Person:</strong><br>
-        <span>Aqilah — <a href="https://wa.me/6287819100690">https://wa.me/6287819100690</a></span><br>
-        <span>Tantawi — <a href="https://wa.me/6285773010587">https://wa.me/6285773010587</a></span>
+        <span><strong>✨ BENEFITS</strong></span><br>
+        <ul>
+          <li>Free Class Dicoding untuk 100 pendaftar pertama</li>
+          <li>Poin SKP</li>
+          <li>E-Certificate</li>
+          <li>Cybersecurity & Digital Safety Insights</li>
+          <li>Tips Melindungi Data Pribadi dan Mengenali Penipuan Digital</li>
+          <li>Insight Penggunaan AI yang Aman dan Bertanggung Jawab</li>
+          <li>Interactive Discussion & Q&A Session</li>
+        </ul>
+      </p>
+
+      <span><strong>📍 SAVE THE DATE!</strong></span><br>
+      <p>
+        <span>📅 Minggu, 25 Oktober 2026</span><br>
+        <span>⏰ 08.00 WIB–selesai</span><br>
+        <span>📍 Zoom Meeting</span><br>
+        <span>💰 HTM Rp10.000</span>
+      </p>
+      <p>
+        <span>🗓️ <strong>Extended Registration:</strong> 20–23 Oktober 2026</span><br>
+        <span>⏳ Penutupan: 24 Oktober 2026</span>
+      </p>
+
+      <span><strong>📝 REGISTER NOW!</strong></span><br>
+      <p>
+        (<a href="https://bit.ly/PendaftaranWebinarNasionalDiesNatalisHIMTIKAIX">https://bit.ly/PendaftaranWebinarNasionalDiesNatalisHIMTIKAIX</a>)
+      </p>
+
+      <p>
+        <strong>📲 CP:</strong> Aqilah — <a href="https://wa.me/087819100690">https://wa.me/087819100690</a>
       </p>
       
-      <p>DIVE DEEPER. GROW STRONGER. 🌊</p>
+      <p>
+        Jangan lewatkan kesempatan untuk belajar dan meningkatkan kesadaran digital bersama! 🌊
+      </p>
+      <p><b>DIVE DEEPER. GROW STRONGER. ⚓</b></p>
 
       <p>
         #DiesNatalisIX<br>
@@ -1087,30 +1088,75 @@ const calendarEvents = Object.freeze([
     featured: true
   },
   {
-    title: "Webinar Nasional Dies Natalis HIMTIKA IX",
-    start: "2026-10-17T08:00:00",
+    title: "Malam Puncak Dies Natalis HIMTIKA IX",
+    start: "2026-10-17T17:00:00",
     end: "2026-10-17T23:59:00",
     timeLabel: "selesai",
     category: "himtika",
     organizer: "HIMTIKA Unsika",
-    location: "Zoom Meeting (Online)",
-    description: "Webinar Nasional Dies Natalis HIMTIKA bertemakan meningkatkan wawasan tentang Cybersecurity, Digital Safety, dan penggunaan AI yang bertanggung jawab!",
-    dialogContent: ``,
-    image: "./assets/images/events/bg-open-regist-webinar-diesnat.webp",
-    link: "https://www.instagram.com/diesnatalis.himtika/",
-    featured: true
-  },
-  {
-    title: "Dies Natalis HIMTIKA IX",
-    start: "2026-10-18T08:00:00",
-    end: "2026-10-18T23:59:00",
-    timeLabel: "selesai",
-    category: "himtika",
-    organizer: "HIMTIKA Unsika",
-    location: "Coming soon",
+    location: "Techno Mart Sky Garden",
     description: "Rangkaian acara untuk memperingati hari lahir HIMTIKA ke-9 dalam rangka mempererat silaturahmi seluruh mahasiswa Informatika.",
-    dialogContent: ``,
-    image: "",
+    dialogContent: `
+      <h3><strong>🌊 [𝐓𝐇𝐄 𝐅𝐈𝐍𝐀𝐋 𝐖𝐀𝐕𝐄𝐒 ー 𝐃𝐈𝐄𝐒 𝐍𝐀𝐓𝐀𝐋𝐈𝐒 𝐇𝐈𝐌𝐓𝐈𝐊𝐀 𝐈𝐗] 🌊</strong></h3><br>
+
+      <span>Hi, Future Sailor! 🌊🐙</span><br>
+      <p>
+        Saatnya merapatkan kapal di Malam Puncak Dies Natalis HIMTIKA IX! Mari rayakan perjalanan hebat ini bersama-sama! 🚀💙   
+      </p>
+
+      <p>
+        <span><strong>✨ SPECIAL PERFORMANCES</strong></span><br>
+        <ul>
+          <li>🎸 WOLF YOUTH</li>
+          <li>🎧 DJ CH4N</li>
+          <li>💃 UKF Modern Dance & Fasilkom Dance Crew</li>
+        </ul>
+      </p>
+      <p>
+        <span><strong>🏆 EVENTS</strong></span><br>
+        <ul>
+          <li>🎮 Grand Final Mobile Legends</li>
+          <li>🎶 Concert</li>
+          <li>🎖️ Awarding</li>
+        </ul>
+      </p>
+      <p>
+        <span><strong>📸 PHOTOBOOTH</strong></span><br>
+        <span>
+          Only 20k/strip (Free Property, Soft File, & Special Frame) | Open 18.00 WIB
+        </span>
+      </p>
+
+      <span><strong>📍 SAVE THE DATE!</strong></span><br>
+      <p>
+        <span>🗓️ Sabtu, 17 Oktober 2026</span><br>
+        <span>🕔 Pukul 17.00 WIB – Selesai</span><br>
+        <span>📍 Techno Mart Sky Garden</span><br>
+        <span>🎨 Dress Code: Blue Palette</span>
+      </p>
+
+      <p>
+        Acara ini TERBUKA UNTUK UMUM! Datang dan ciptakan momen tak terlupakan bersama kami! 🔥
+      </p>
+      
+      <p><b>Dive Deeper. Grow Stronger. 🌊⚓</b></p>
+
+      <p>
+        <strong>📱 Info lebih lanjut:</strong><br>
+        <a href="https://instagram.com/himtika_unsika">@himtika_unsika </a> | <a href="https://instagram.com/diesnatalis.himtika">@diesnatalis.himtika</a><br> 
+        <a href="https://himtika.cs.unsika.ac.id">himtika.cs.unsika.ac.id</a>
+      </p>
+
+      <p>
+        #DiesNatalisIX<br>
+        #DiveDeeperGrowStronger<br>
+        #HIMTIKA2026<br>
+        #BersamaKitaJaya<br>
+        #KabinetSelaras<br>
+        #FasilkomUnsika
+      </p>
+    `,
+    image: "./assets/images/events/bg-malam-puncak-diesnat.webp",
     link: "https://www.instagram.com/diesnatalis.himtika/",
     featured: true
   },
@@ -1124,24 +1170,32 @@ const calendarEvents = Object.freeze([
     location: "Hybrid: Aula Husni Hamid (Offline) & Zoom Meeting (Online)",
     description: "Seminar Nasional yang diadakan oleh Fasilkom dengan rangkaian acara materi serta pameran IT",
     dialogContent: `
-      <h3><strong>✨🤖 [ OPEN REGISTRASI SEMINAR NASIONAL FASILKOM FEST 2026 ] 🤖✨</strong></h3><br>
+      <h3><strong>📢 𝐒𝐄𝐌𝐈𝐍𝐀𝐑 𝐍𝐀𝐒𝐈𝐎𝐍𝐀𝐋 𝐅𝐀𝐒𝐈𝐋𝐊𝐎𝐌 𝐅𝐄𝐒𝐓 𝟐𝟎𝟐𝟔 𝐒𝐄𝐆𝐄𝐑𝐀 𝐇𝐀𝐃𝐈𝐑! 📢</strong></h3><br>
 
-      <p><i>"Work Smarter, Stay Human: AI as Your Strategic Co-Pilot"</i></p>
       <p>Halo, Fellas! 👋🏻</p>
       <p>
-      AI kini bukan lagi sekadar tren, tapi sudah jadi asisten harian kita. Namun di balik kemudahannya, ada risiko ketergantungan yang bisa mengikis kreativitas dan pola pikir kritis kita.
+      FASILKOM FEST 2026 menghadirkan Seminar Nasional dengan tema:
       </p>
       <p>
-        Di seminar ini kita akan belajar bagaimana menjadikan AI sebagai co-pilot strategis, bukan pengganti. Agar kita bisa menjadi lebih cerdas, produktif, dan tetap menjunjung etika serta nilai kemanusiaan.
+        <strong><i>✨ “𝑾𝒐𝒓𝒌 𝑺𝒎𝒂𝒓𝒕𝒆𝒓, 𝑺𝒕𝒂𝒚 𝑯𝒖𝒎𝒂𝒏: 𝑨𝑰 𝒂𝒔 𝒀𝒐𝒖𝒓 𝑺𝒕𝒓𝒂𝒕𝒆𝒈𝒊𝒄 𝑪𝒐-𝑷𝒊𝒍𝒐𝒕”✨</i></strong>
       </p>
-        
-      <p>Yuk, ikut Seminar Nasional Fasilkom Fest 2026!</p>
+      <p>
+        Di era perkembangan teknologi yang semakin pesat, Artificial Intelligence (AI) hadir sebagai teknologi yang dapat membantu kita bekerja lebih cerdas dan efektif. Namun, bagaimana cara memanfaatkan AI secara strategis tanpa mengesampingkan peran manusia?
+      </p>
+      <p>
+        Yuk, ikuti seminar ini dan dapatkan wawasan baru mengenai pemanfaatan AI serta kesempatan untuk belajar dan berdiskusi bersama narasumber! 🚀
+      </p>
       
-      <span><strong>Catat tanggal pelaksanaannya‼️</strong></span><br>
+      <span><strong>📌 𝗖𝗮𝘁𝗮𝘁 𝗧𝗮𝗻𝗴𝗴𝗮𝗹𝗻𝘆𝗮!</strong></span><br>
       <p>
       <span><strong>📅 Sabtu, 24 Oktober 2026</strong></span><br>
       <span><strong>⏰ 07.00 WIB – Selesai</strong></span><br>
       <span><strong>📍 Hybrid (Aula Husni Hamid & Zoom Meeting)</strong></span><br>
+      </p>
+      <p>
+      <span><strong>🎤 Pemateri: Rino Alfian</strong></span><br>
+      <span><strong>🎙️ Moderator: Andhika Sukma Jiwatama</strong></span><br>
+      <span><strong>🎙️ Master of Ceremony: Regina Martha & Naufal Fathir</strong></span><br>
       </p>
 
       <p>
@@ -1151,24 +1205,178 @@ const calendarEvents = Object.freeze([
         </a>
       </p>
 
-      <span><strong><i>✨ Benefit: </i></strong></span><br>
+      <span><strong>🎁 Benefit Peserta:</strong></span><br>
       <ul>
         <li>E-Sertifikat</li>
         <li>Poin SKP</li>
         <li>Ilmu Bermanfaat</li>
         <li>Snackbox (<i>offline</i>)</li>
       </ul>
-
+      <p>
+        📢 Jangan lewatkan kesempatan untuk menambah wawasan, memperluas perspektif, dan memahami bagaimana AI dapat menjadi strategic co-pilot dalam aktivitas kita sehari-hari!
+      </p>
       <p>
         <strong><i>📞 Contact Person: </i></strong><br>
         <span><a href="https://wa.me/6282258956295">https://wa.me/6282258956295</a> (Fahmi)</span><br>
         <span><a href="https://wa.me/62895604013700">https://wa.me/62895604013700</a> (Nazwa)</span>
       </p>
       
-      <p>Jangan cuma jadi pengguna AI, jadilah pengendalinya! 🚀</p>
+      <p>Sampai bertemu di FASILKOM FEST 2026! ❤️‍🔥</p>
+
+      <p>
+        #FasilkomFest2026<br>
+        #FasilkomFestCompetition<br>
+        #BEMFasilkomUnsika<br>
+        #KabinetSahitya<br>
+        #TogetherMovingForward
+      </p>
     `,
     image: "./assets/images/events/bg-seminar-fasilkom-fest.webp",
     link: "https://www.instagram.com/fasilkom.fest/",
+    featured: true
+  },
+  {
+    title: "Study Up Sharing Sesion by Study Club",
+    start: "2026-10-23T08:00:00",
+    end: "2026-10-23T23:59:00",
+    timeLabel: "selesai",
+    category: "himtika",
+    organizer: "HIMTIKA Unsika",
+    location: "Gedung Fasilkom, Lantai 4",
+    description: "Wadah belajar bareng, berdiskusi, dan saling bertukar cerita seputar dunia perkuliahan secara santai dan interaktif yang diselenggarakan Study Club HIMTIKA!",
+    dialogContent: `
+      <h3><strong>​🚀✨ [SHARING SESSION STUDY UP BY STUDY CLUB HIMTIKA 2026] ✨🚀</strong></h3><br>
+
+      <p>​Halo, Star-Seekers dan Sobat Informatics! 👋🏻🌟</p>
+      <p>
+        ​Punya banyak pertanyaan seputar dunia perkuliahan? Mau lebih paham materi kuliah atau butuh teman diskusi dan sharing pengalaman belajar? Tenang, kita punya solusinya! 🚀🔥 
+      </p>
+      <p>
+        ​Study Club HIMTIKA kembali menghadirkan STUDY UP (Sharing Session)! Wadah belajar bareng, berdiskusi, dan saling bertukar cerita seputar dunia perkuliahan secara santai dan interaktif! 🎉
+      </p>
+      <p>
+        ​Dengan semangat "Upgrade Your Skills, Unlock Your Potential", inilah saatnya buat kita memperdalam materi perkuliahan dan berdiskusi langsung dengan kakak tingkat! 💻✨
+      </p>
+
+      <p>
+        <span><strong>📌 Apa aja sih kegiatannya?</strong></span><br>
+        <span>​📚 Review Mata Kuliah: Bedah materi dan pendalaman topik untuk matkul Kalkulus (Angkatan 2026) & Basis Data (Angkatan 2025).</span>
+      </p>
+      <p>
+      💬 Sharing Session: Sesi diskusi santai, tanya jawab seputar kendala perkuliahan, serta berbagi tips & pengalaman bersama kakak angkatan 2024.
+      </p>
+      
+      <span><strong>📍 SAVE THE DATE!</strong></span><br>
+      <p>
+        <span><strong>​📅 Hari/Tanggal: Jumat, 23 Oktober 2026</strong></span><br>
+        <span><strong>​⏰ Waktu: 08.00 WIB – Selesai</strong></span><br>
+        <span><strong>📍 Tempat: Gedung Fasilkom, Lantai 4</strong></span>
+      </p>
+
+      <p>
+        <span><strong>​👥 SIAPA AJA YANG BOLEH IKUT?</strong></span><br>
+        <span>​Acara ini <strong>TERBUKA UNTUK SELURUH MAHASISWA INFORMATIKA Angkatan 2026, 2025 dan 2024</strong> (Bukan hanya anggota Study Club, mahasiswa umum sangat diperbolehkan dan disambut hangat buat bergabung!) 🎓✨</span>
+      </p>
+      <p>
+        <span><strong>​​🎁 SPECIAL BENEFIT:</strong></span><br>
+        <span>30 orang tercepat yang datang di lokasi bakal dapet  <strong>MERCHANDISE MENARIK! 😱</strong> (Jangan sampai terlambat ya, siap-siap makin pagi biar nggak kehabisan!) ⚡</span>
+      </p>
+      <p>
+        ​Jadi, tunggu apa lagi? Udah siap buat belajar bareng, nambah relasi, dapet ilmu, plus dapet merchandise seru? 👀🔥
+      </p>
+      <p>
+        Jangan sampai terlewat! Siapkan semangat terbaik kalian, persiapkan pertanyaanmu, dan yuk bertumbuh bareng di sini! 🌌🚀
+      </p>
+
+      <p>
+        <span>​See you there!</span><br>
+        <span>​✨ “Upgrade Your Skills, Unlock Your Potential” ✨</span>
+      </p>
+      <p>
+        #StudyClub2026<br>
+        #HIMTIKA2026<br>
+        #BersamaKitaJaya<br>
+        #KabinetSelaras<br>
+        #FasilkomUnsika
+      </p>
+    `,
+    image: "./assets/images/events/bg-study-up.webp",
+    link: "https://www.instagram.com/studyclub_id/",
+    featured: true
+  },
+  {
+    title: "Webinar Nasional Dies Natalis HIMTIKA IX",
+    start: "2026-10-25T08:00:00",
+    end: "2026-10-25T23:59:00",
+    timeLabel: "selesai",
+    category: "himtika",
+    organizer: "HIMTIKA Unsika",
+    location: "Zoom Meeting (Online)",
+    description: "Webinar Nasional Dies Natalis HIMTIKA bertemakan meningkatkan wawasan tentang Cybersecurity, Digital Safety, dan penggunaan AI yang bertanggung jawab!",
+    dialogContent: `
+      <h3><strong>🌊 [EXTENDED REGISTRATION — WEBINAR NASIONAL DIES NATALIS HIMTIKA IX] 🌊</strong></h3><br>
+
+      <p>Hi, Future Sailor! ⚓✨</p>
+      <p>
+        <strong>📢 PENDAFTARAN DIPERPANJANG!</strong>   
+      </p>
+      <p>
+        Yuk, perluas wawasanmu bersama <strong>Muhammad Akbar Maulana</strong> dalam Webinar Nasional Dies Natalis HIMTIKA IX dengan tema:
+      </p>
+      <p>
+        <strong>“Peran Kesadaran Digital, Keamanan Siber, dan Inovasi yang Bertanggung Jawab dalam Membangun Masa Depan Digital” 🔐🤖</strong>
+      </p>
+
+      <p>
+        <span><strong>✨ BENEFITS</strong></span><br>
+        <ul>
+          <li>Free Class Dicoding untuk 100 pendaftar pertama</li>
+          <li>Poin SKP</li>
+          <li>E-Certificate</li>
+          <li>Cybersecurity & Digital Safety Insights</li>
+          <li>Tips Melindungi Data Pribadi dan Mengenali Penipuan Digital</li>
+          <li>Insight Penggunaan AI yang Aman dan Bertanggung Jawab</li>
+          <li>Interactive Discussion & Q&A Session</li>
+        </ul>
+      </p>
+
+      <span><strong>📍 SAVE THE DATE!</strong></span><br>
+      <p>
+        <span>📅 Minggu, 25 Oktober 2026</span><br>
+        <span>⏰ 08.00 WIB–selesai</span><br>
+        <span>📍 Zoom Meeting</span><br>
+        <span>💰 HTM Rp10.000</span>
+      </p>
+      <p>
+        <span>🗓️ <strong>Extended Registration:</strong> 20–23 Oktober 2026</span><br>
+        <span>⏳ Penutupan: 24 Oktober 2026</span>
+      </p>
+
+      <span><strong>📝 REGISTER NOW!</strong></span><br>
+      <p>
+        (<a href="https://bit.ly/PendaftaranWebinarNasionalDiesNatalisHIMTIKAIX">https://bit.ly/PendaftaranWebinarNasionalDiesNatalisHIMTIKAIX</a>)
+      </p>
+
+      <p>
+        <strong>📲 CP:</strong> Aqilah — <a href="https://wa.me/087819100690">https://wa.me/087819100690</a>
+      </p>
+      
+      <p>
+        Jangan lewatkan kesempatan untuk belajar dan meningkatkan kesadaran digital bersama! 🌊
+      </p>
+      <p><b>DIVE DEEPER. GROW STRONGER. ⚓</b></p>
+
+      <p>
+        #DiesNatalisIX<br>
+        #DiveDeeperGrowStronger<br>
+        #HIMTIKA2026<br>
+        #BersamaKitaJaya<br>
+        #KabinetSelaras<br>
+        #FasilkomUnsika
+      </p>
+    `,
+    image: "./assets/images/events/bg-open-regist-webinar-diesnat.webp",
+    link: "https://www.instagram.com/diesnatalis.himtika/",
     featured: true
   },
   {
