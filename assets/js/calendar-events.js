@@ -9,84 +9,87 @@ const categoryConfig = Object.freeze({
   himtika: {
     label: "HIMTIKA",
     color: "#24B8B1",
-    fallback: "linear-gradient(135deg, #0B403E, #24B8B1)"
+    fallback: "linear-gradient(135deg, #0B403E, #24B8B1)",
   },
   informatika: {
     label: "INFORMATIKA",
     color: "#2CCB91",
-    fallback: "linear-gradient(135deg, #0B3A2D, #2CCB91)"
+    fallback: "linear-gradient(135deg, #0B3A2D, #2CCB91)",
   },
   fasilkom: {
     label: "FASILKOM",
     color: "#D6C26A",
-    fallback: "linear-gradient(135deg, #645B25, #D6C26A)"
+    fallback: "linear-gradient(135deg, #645B25, #D6C26A)",
   },
   bem: {
     label: "BEM FASILKOM",
     color: "#E64D78",
-    fallback: "linear-gradient(135deg, #68243B, #E64D78)"
+    fallback: "linear-gradient(135deg, #68243B, #E64D78)",
   },
   blm: {
     label: "BLM FASILKOM",
     color: "#35A5D5",
-    fallback: "linear-gradient(135deg, #164760, #35A5D5)"
-  }
+    fallback: "linear-gradient(135deg, #164760, #35A5D5)",
+  },
 });
 
 /**
-  * ATURAN PENGGUNAAN FIELD END. GUNAKAN ATURAN BERIKUT INI:
-  * 
-  * || Jam selesai diketahui
-  * end: "2026-08-28T12:00:00",
-  * timeLabel: ""
-  * 
-  * || Jam selesai tidak diketahui
-  * end: "2026-08-28T23:59:00",
-  * timeLabel: "selesai"
-  * 
-  * JANGAN MENULIS
-  * end: "2026-08-28"
+ * ATURAN PENGGUNAAN FIELD END. GUNAKAN ATURAN BERIKUT INI:
+ *
+ * || Jam selesai diketahui
+ * end: "2026-08-28T12:00:00",
+ * timeLabel: ""
+ *
+ * || Jam selesai tidak diketahui
+ * end: "2026-08-28T23:59:00",
+ * timeLabel: "selesai"
+ *
+ * JANGAN MENULIS
+ * end: "2026-08-28"
  */
 
-const calendarEvents = Object.freeze([
-  {
-    title: "Pekan IT: Semantik",
-    start: "2026-05-13T08:00:00",
-    end: "2026-05-13T12:00:00",
-    timeLabel: "",
-    category: "himtika",
-    organizer: "HIMTIKA Unsika",
-    location: "Gd. Fasilkom",
-    description: "Kompetisi bagi Mahasiswa Informatika Unsika untuk menunjukkan bakat dan keahlian hard kill",
-    dialogContent: ``,
-    image: "./assets/images/events/bg-semantik.webp",
-    link: "https://www.instagram.com/pekanit_unsika/",
-    featured: true
-  },
-  {
-    title: "Hi-Link: HE (HIMTIKA Exchange)",
-    start: "2026-05-16T07:00:00",
-    end: "2026-05-16T20:00:00",
-    timeLabel: "",
-    category: "himtika",
-    organizer: "HIMTIKA Unsika",
-    location: "T. kumpul: Depan Aula Syekh Quro",
-    description: "Kegiatan untuk menjalin relasi serta mendapatkan ilmu dengan himpunan universitas lain. Studi banding tahun ini dengan HMIF UPNVJ.",
-    dialogContent: ``,
-    image: "./assets/images/events/bg-he.webp",
-    link: "https://www.instagram.com/reel/DYW_J4Ulqyg/?igsh=Z3YwZzF5ZGM2ZmJ6",
-    featured: true
-  },
-  {
-    title: "Hi-Link: HGTC (HIMTIKA Goes To Company)",
-    start: "2026-07-03T06:00:00",
-    end: "2026-07-03T20:30:00",
-    timeLabel: "",
-    category: "himtika",
-    organizer: "HIMTIKA Unsika",
-    location: "T. kumpul: Depan Aula Syekh Quro Unsika",
-    description: "Kunjungan industri ke Hacktiv8 dan BLU by BCA Digital.",
-    dialogContent: `
+const calendarEvents = Object.freeze(
+  [
+    {
+      title: "Pekan IT: Semantik",
+      start: "2026-05-13T08:00:00",
+      end: "2026-05-13T12:00:00",
+      timeLabel: "",
+      category: "himtika",
+      organizer: "HIMTIKA Unsika",
+      location: "Gd. Fasilkom",
+      description:
+        "Kompetisi bagi Mahasiswa Informatika Unsika untuk menunjukkan bakat dan keahlian hard kill",
+      dialogContent: ``,
+      image: "./assets/images/events/bg-semantik.webp",
+      link: "https://www.instagram.com/pekanit_unsika/",
+      featured: true,
+    },
+    {
+      title: "Hi-Link: HE (HIMTIKA Exchange)",
+      start: "2026-05-16T07:00:00",
+      end: "2026-05-16T20:00:00",
+      timeLabel: "",
+      category: "himtika",
+      organizer: "HIMTIKA Unsika",
+      location: "T. kumpul: Depan Aula Syekh Quro",
+      description:
+        "Kegiatan untuk menjalin relasi serta mendapatkan ilmu dengan himpunan universitas lain. Studi banding tahun ini dengan HMIF UPNVJ.",
+      dialogContent: ``,
+      image: "./assets/images/events/bg-he.webp",
+      link: "https://www.instagram.com/reel/DYW_J4Ulqyg/?igsh=Z3YwZzF5ZGM2ZmJ6",
+      featured: true,
+    },
+    {
+      title: "Hi-Link: HGTC (HIMTIKA Goes To Company)",
+      start: "2026-07-03T06:00:00",
+      end: "2026-07-03T20:30:00",
+      timeLabel: "",
+      category: "himtika",
+      organizer: "HIMTIKA Unsika",
+      location: "T. kumpul: Depan Aula Syekh Quro Unsika",
+      description: "Kunjungan industri ke Hacktiv8 dan BLU by BCA Digital.",
+      dialogContent: `
       <h3>⚠️ [ HIMTIKA Goes To Company 2026 ] ⚠️</h3>
       <span>
         Halo teman-teman Peserta  HGTC 2026 👋.
@@ -122,20 +125,21 @@ const calendarEvents = Object.freeze([
         resmi kegiatan.
       </p>
     `,
-    image: "./assets/images/events/bg-hgtc.webp",
-    link: "https://youtu.be/iNu6ZJkP6qY?si=cgUOWNUOqPsxmFez",
-    featured: true
-  },
-  {
-    title: "Seminar Nasional Pekan IT",
-    start: "2026-08-09T08:00:00",
-    end: "2026-08-09T14:00:00",
-    timeLabel: "",
-    category: "himtika",
-    organizer: "HIMTIKA Unsika",
-    location: "Aula Husni Hamid Pemda Karawang",
-    description: "Seminar Nasional IT dengan tema manusia dan Artificial Intelligence beserta booth pameran IT.",
-    dialogContent: `
+      image: "./assets/images/events/bg-hgtc.webp",
+      link: "https://youtu.be/iNu6ZJkP6qY?si=cgUOWNUOqPsxmFez",
+      featured: true,
+    },
+    {
+      title: "Seminar Nasional Pekan IT",
+      start: "2026-08-09T08:00:00",
+      end: "2026-08-09T14:00:00",
+      timeLabel: "",
+      category: "himtika",
+      organizer: "HIMTIKA Unsika",
+      location: "Aula Husni Hamid Pemda Karawang",
+      description:
+        "Seminar Nasional IT dengan tema manusia dan Artificial Intelligence beserta booth pameran IT.",
+      dialogContent: `
       <h3>📢 [𝐒𝐄𝐌𝐈𝐍𝐀𝐑 𝐍𝐀𝐒𝐈𝐎𝐍𝐀𝐋 & 𝐏𝐀𝐌𝐄𝐑𝐀𝐍 𝐏𝐄𝐊𝐀𝐍 𝐈𝐓 𝟐𝟎𝟐𝟔] 📢</h3>
       <p>Halo, Sobat Pekan IT! 👋</p>
 
@@ -217,34 +221,35 @@ const calendarEvents = Object.freeze([
         resmi kegiatan.
       </p>
     `,
-    image: "./assets/images/events/bg-seminar-pekan-it.webp",
-    link: "https://www.instagram.com/pekanit_unsika/",
-    featured: true
-  },
-  {
-    title: "CnC: Demonstrasi Project",
-    start: "2026-08-09T13:00:00",
-    end: "2026-08-09T14:00:00",
-    timeLabel: "",
-    category: "himtika",
-    organizer: "HIMTIKA Unsika",
-    location: "Aula Husni Hamid Pemda Karawang",
-    description: "Project CnC yang sudah selesai dan siap untuk dipamerkan pada Seminar Pekan IT 2026.",
-    dialogContent: ``,
-    image: "./assets/images/events/bg-cnc.webp",
-    link: "https://www.instagram.com/cnc_himtika/",
-    featured: false
-  },
-  {
-    title: "Pre-order PDH Anggota HIMTIKA",
-    start: "2026-08-09T00:00:01",
-    end: "2026-08-15T23:59:59",
-    timeLabel: "",
-    category: "himtika",
-    organizer: "HIMTIKA Unsika",
-    location: "Google Form",
-    description: "",
-    dialogContent: `
+      image: "./assets/images/events/bg-seminar-pekan-it.webp",
+      link: "https://www.instagram.com/pekanit_unsika/",
+      featured: true,
+    },
+    {
+      title: "CnC: Demonstrasi Project",
+      start: "2026-08-09T13:00:00",
+      end: "2026-08-09T14:00:00",
+      timeLabel: "",
+      category: "himtika",
+      organizer: "HIMTIKA Unsika",
+      location: "Aula Husni Hamid Pemda Karawang",
+      description:
+        "Project CnC yang sudah selesai dan siap untuk dipamerkan pada Seminar Pekan IT 2026.",
+      dialogContent: ``,
+      image: "./assets/images/events/bg-cnc.webp",
+      link: "https://www.instagram.com/cnc_himtika/",
+      featured: false,
+    },
+    {
+      title: "Pre-order PDH Anggota HIMTIKA",
+      start: "2026-08-09T00:00:01",
+      end: "2026-08-15T23:59:59",
+      timeLabel: "",
+      category: "himtika",
+      organizer: "HIMTIKA Unsika",
+      location: "Google Form",
+      description: "",
+      dialogContent: `
       <h3>📢 [ 𝐎𝐏𝐄𝐍 𝐏𝐑𝐄-𝐎𝐑𝐃𝐄𝐑 𝐏𝐃𝐇 𝐀𝐍𝐆𝐆𝐎𝐓𝐀 𝐇𝐈𝐌𝐓𝐈𝐊𝐀 ] 📢</h3>
       <p>Halo Mahasiswa Baru Informatika UNSIKA 2026! 👋 </p>
 
@@ -299,20 +304,20 @@ const calendarEvents = Object.freeze([
         Informasi lebih lengkap dapat dilihat melalui tautan di bawah ini.
       </p>
     `,
-    image: "./assets/images/events/bg-pdh-anggota.webp",
-    link: "https://bit.ly/PRE-ORDERPDHANGGOTA",
-    featured: true
-  },
-  {
-    title: "Sosialisasi LKMM Pra-Dasar 2026",
-    start: "2026-08-13T19:00:00",
-    end: "2026-08-13T23:59:00",
-    timeLabel: "selesai",
-    category: "himtika",
-    organizer: "HIMTIKA Unsika",
-    location: "Zoom Meeting",
-    description: "",
-    dialogContent: `
+      image: "./assets/images/events/bg-pdh-anggota.webp",
+      link: "https://bit.ly/PRE-ORDERPDHANGGOTA",
+      featured: true,
+    },
+    {
+      title: "Sosialisasi LKMM Pra-Dasar 2026",
+      start: "2026-08-13T19:00:00",
+      end: "2026-08-13T23:59:00",
+      timeLabel: "selesai",
+      category: "himtika",
+      organizer: "HIMTIKA Unsika",
+      location: "Zoom Meeting",
+      description: "",
+      dialogContent: `
       <h3><strong>[📢 𝐒𝐎𝐒𝐈𝐀𝐋𝐈𝐒𝐀𝐒𝐈 𝐋𝐊𝐌𝐌 𝐏𝐑𝐀-𝐃𝐀𝐒𝐀𝐑 𝟐𝟎𝟐𝟔]</strong></h3>
 
       <p>Hello Sobat Informatics 2026! 👋🏻</p>
@@ -354,20 +359,21 @@ const calendarEvents = Object.freeze([
         #FasilkomUnsika
       </p>
     `,
-    image: "./assets/images/events/bg-sosialisasi-lkmmpd.webp",
-    link: "https://www.instagram.com/himtika_unsika/",
-    featured: true
-  },
-  {
-    title: "Keputrian X Kenali",
-    start: "2026-08-14T15:00:00",
-    end: "2026-08-14T23:59:00",
-    timeLabel: "selesai",
-    category: "bem",
-    organizer: "BEM Fasilkom Unsika",
-    location: "Gedung Vaksin",
-    description: "Sarana atau wadah untuk menambah wawasan ilmu pengetahuan, keterampilan, dan pemahaman bagi mahasiswi Fasilkom Unsika.",
-    dialogContent: `
+      image: "./assets/images/events/bg-sosialisasi-lkmmpd.webp",
+      link: "https://www.instagram.com/himtika_unsika/",
+      featured: true,
+    },
+    {
+      title: "Keputrian X Kenali",
+      start: "2026-08-14T15:00:00",
+      end: "2026-08-14T23:59:00",
+      timeLabel: "selesai",
+      category: "bem",
+      organizer: "BEM Fasilkom Unsika",
+      location: "Gedung Vaksin",
+      description:
+        "Sarana atau wadah untuk menambah wawasan ilmu pengetahuan, keterampilan, dan pemahaman bagi mahasiswi Fasilkom Unsika.",
+      dialogContent: `
       <h3>[𝐊𝐄𝐏𝐔𝐓𝐑𝐈𝐀𝐍 𝐗 𝐊𝐄𝐍𝐀𝐋𝐈🌷✨]</h3>
 
       <p>Halo Fasilkomers! 👋</p>
@@ -407,20 +413,20 @@ const calendarEvents = Object.freeze([
         #TogetherMovingForward
       </p>
     `,
-    image: "./assets/images/events/bg-keputrian-x-kenali.webp",
-    link: "https://www.instagram.com/bemfasilkomunsika/",
-    featured: true
-  },
-  {
-    title: "Sosialisasi Dies Natalis HIMTIKA IX Championship",
-    start: "2026-08-24T19:00:00",
-    end: "2026-08-24T23:59:00",
-    timeLabel: "selesai",
-    category: "himtika",
-    organizer: "HIMTIKA Unsika",
-    location: "Zoom Meeting",
-    description: "",
-    dialogContent: `
+      image: "./assets/images/events/bg-keputrian-x-kenali.webp",
+      link: "https://www.instagram.com/bemfasilkomunsika/",
+      featured: true,
+    },
+    {
+      title: "Sosialisasi Dies Natalis HIMTIKA IX Championship",
+      start: "2026-08-24T19:00:00",
+      end: "2026-08-24T23:59:00",
+      timeLabel: "selesai",
+      category: "himtika",
+      organizer: "HIMTIKA Unsika",
+      location: "Zoom Meeting",
+      description: "",
+      dialogContent: `
       <h3><strong>🌊 [SOSIALISASI DIES NATALIS HIMTIKA IX CHAMPIONSHIP] 🌊</strong></h3><br>
 
       <p>Halo, Future Sailors! ⚓🌊</p>
@@ -464,20 +470,20 @@ const calendarEvents = Object.freeze([
         #KabinetSelaras
       </p>
     `,
-    image: "./assets/images/events/bg-sosialisasi-diesnat.webp",
-    link: "https://www.instagram.com/diesnatalis.himtika/",
-    featured: true
-  },
-  {
-    title: "Pendaftaran Lomba Dies Natalis HIMTIKA IX",
-    start: "2026-08-24T07:00:00",
-    end: "2026-08-31T23:59:00",
-    timeLabel: "selesai",
-    category: "himtika",
-    organizer: "HIMTIKA Unsika",
-    location: "Google Form",
-    description: "",
-    dialogContent: `
+      image: "./assets/images/events/bg-sosialisasi-diesnat.webp",
+      link: "https://www.instagram.com/diesnatalis.himtika/",
+      featured: true,
+    },
+    {
+      title: "Pendaftaran Lomba Dies Natalis HIMTIKA IX",
+      start: "2026-08-24T07:00:00",
+      end: "2026-08-31T23:59:00",
+      timeLabel: "selesai",
+      category: "himtika",
+      organizer: "HIMTIKA Unsika",
+      location: "Google Form",
+      description: "",
+      dialogContent: `
       <h3><strong>🏆[OPEN REGISTRATION DIES NATALIS HIMTIKA IX CHAMPIONSHIP] 🌊</strong></h3><br>
 
       <p>Halo, Future Sailors! ⚓🌊</p>
@@ -525,34 +531,36 @@ const calendarEvents = Object.freeze([
         #KabinetSelaras
       </p>
     `,
-    image: "./assets/images/events/bg-pendaftaran-lomba-diesnat.webp",
-    link: "https://www.instagram.com/diesnatalis.himtika/",
-    featured: true
-  },
-  {
-    title: "Pelaksanaan Kelas Study Club",
-    start: "2026-08-15T07:00:00",
-    end: "2026-08-15T23:59:00",
-    timeLabel: "selesai",
-    category: "himtika",
-    organizer: "HIMTIKA Unsika",
-    location: "Hybrid (Gmeet/Offline)",
-    description: "Pelaksanaan kelas Study Club HIMTIKA bersama para mentor ahli di kelas Web Dev., UI/UX Design, & Data Science tiap minggu hingga tanggal 25 Oktober 2026.",
-    dialogContent: ``,
-    image: "./assets/images/events/bg-study-club.webp",
-    link: "https://www.instagram.com/studyclub_id/",
-    featured: true
-  },
-  {
-    title: "LKMM-PD",
-    start: "2026-08-26T06:00:00",
-    end: "2026-08-26T17:00:00",
-    timeLabel: "",
-    category: "himtika",
-    organizer: "HIMTIKA Unsika",
-    location: "Aula Syekh Quro Unsika",
-    description: "Latihan Kepemimpinan dan Manajemen Mahasiswa untuk mahasiswa baru Informatika 2026",
-    dialogContent: `
+      image: "./assets/images/events/bg-pendaftaran-lomba-diesnat.webp",
+      link: "https://www.instagram.com/diesnatalis.himtika/",
+      featured: true,
+    },
+    {
+      title: "Pelaksanaan Kelas Study Club",
+      start: "2026-08-15T07:00:00",
+      end: "2026-08-15T23:59:00",
+      timeLabel: "selesai",
+      category: "himtika",
+      organizer: "HIMTIKA Unsika",
+      location: "Hybrid (Gmeet/Offline)",
+      description:
+        "Pelaksanaan kelas Study Club HIMTIKA bersama para mentor ahli di kelas Web Dev., UI/UX Design, & Data Science tiap minggu hingga tanggal 25 Oktober 2026.",
+      dialogContent: ``,
+      image: "./assets/images/events/bg-study-club.webp",
+      link: "https://www.instagram.com/studyclub_id/",
+      featured: true,
+    },
+    {
+      title: "LKMM-PD",
+      start: "2026-08-26T06:00:00",
+      end: "2026-08-26T17:00:00",
+      timeLabel: "",
+      category: "himtika",
+      organizer: "HIMTIKA Unsika",
+      location: "Aula Syekh Quro Unsika",
+      description:
+        "Latihan Kepemimpinan dan Manajemen Mahasiswa untuk mahasiswa baru Informatika 2026",
+      dialogContent: `
       <h3><strong>[LKMM PRA-DASAR 2026]</strong></h3><br>
 
       <p>🚨 HARI YANG DINANTIKAN AKHIRNYA TIBA! 🚨</p>
@@ -592,20 +600,21 @@ const calendarEvents = Object.freeze([
         #KabinetSelaras
       </p>
     `,
-    image: "./assets/images/events/bg-lkmmpd.webp",
-    link: "https://www.instagram.com/himtika_unsika/",
-    featured: true
-  },
-  {
-    title: "Pre-Order Danusan Dies Natalis HIMTIKA IX X Pekan IT 2026 Batch 3",
-    start: "2026-09-13T06:00:00",
-    end: "2026-09-17T23:59:00",
-    timeLabel: "selesai",
-    category: "himtika",
-    organizer: "HIMTIKA Unsika",
-    location: "Google Form",
-    description: "Danusan Dies Natalis x Pekan IT Batch 3",
-    dialogContent: `
+      image: "./assets/images/events/bg-lkmmpd.webp",
+      link: "https://www.instagram.com/himtika_unsika/",
+      featured: true,
+    },
+    {
+      title:
+        "Pre-Order Danusan Dies Natalis HIMTIKA IX X Pekan IT 2026 Batch 3",
+      start: "2026-09-13T06:00:00",
+      end: "2026-09-17T23:59:00",
+      timeLabel: "selesai",
+      category: "himtika",
+      organizer: "HIMTIKA Unsika",
+      location: "Google Form",
+      description: "Danusan Dies Natalis x Pekan IT Batch 3",
+      dialogContent: `
       <h3><strong>🔥 [PRE-ORDER DANUSAN DIES NATALIS HIMTIKA IX X PEKAN IT 2026 #BATCH 3] 🍪🥟✨</strong></h3><br>
 
       <span>🔥 Hallo Fasilkomers! 👋</span><br>
@@ -689,20 +698,20 @@ const calendarEvents = Object.freeze([
         #FasilkomUnsika
       </p>
     `,
-    image: "./assets/images/events/bg-danusan-diesnat-pekan-it-batch-3.webp",
-    link: "https://www.instagram.com/himtika_unsika/",
-    featured: true
-  },
-  {
-    title: "Sosialisasi IT Bootcamp 2026",
-    start: "2026-09-14T19:30:00",
-    end: "2026-09-14T23:59:00",
-    timeLabel: "selesai",
-    category: "himtika",
-    organizer: "HIMTIKA Unsika",
-    location: "Zoom Meeting",
-    description: "Sosialisasi IT Bootcamp 2026",
-    dialogContent: `
+      image: "./assets/images/events/bg-danusan-diesnat-pekan-it-batch-3.webp",
+      link: "https://www.instagram.com/himtika_unsika/",
+      featured: true,
+    },
+    {
+      title: "Sosialisasi IT Bootcamp 2026",
+      start: "2026-09-14T19:30:00",
+      end: "2026-09-14T23:59:00",
+      timeLabel: "selesai",
+      category: "himtika",
+      organizer: "HIMTIKA Unsika",
+      location: "Zoom Meeting",
+      description: "Sosialisasi IT Bootcamp 2026",
+      dialogContent: `
       <h3><strong>[𝐒𝐎𝐒𝐈𝐀𝐋𝐈𝐒𝐀𝐒𝐈 𝐈𝐓 𝐁𝐎𝐎𝐓𝐂𝐀𝐌𝐏: 𝐈𝐍𝐃𝐄𝐏𝐄𝐍𝐃𝐄𝐍𝐓 𝐏𝐑𝐎𝐉𝐄𝐂𝐓]</strong></h3><br>
 
       <p>Halo Informatics 2026! 👋🏻 </p>
@@ -746,34 +755,36 @@ const calendarEvents = Object.freeze([
         #FasilkomUnsika
       </p>
     `,
-    image: "./assets/images/events/bg-sosialisasi-itb.webp",
-    link: "https://www.instagram.com/himtika_unsika/",
-    featured: true
-  },
-  {
-    title: "LKMM X Inaugurasi",
-    start: "2026-09-19T06:00:00",
-    end: "2026-09-20T23:59:00",
-    timeLabel: "selesai",
-    category: "bem",
-    organizer: "BEM Fasilkom Unsika",
-    location: "Agro Kartika, Karawang",
-    description: "Program pembinaan dan pengenalan mahasiswa baru Fasilkom Unsika angkatan 2026 yang bertujuan membekali pengetahuan, keterampilan, dan sikap dalam manajemen organisasi sekaligus menumbuhkan rasa kekeluargaan, kebersamaan, dan keakraban antar mahasiswa dalam lingkungan Fasilkom.",
-    dialogContent: ``,
-    image: "./assets/images/events/bg-lkmm.webp",
-    link: "https://www.instagram.com/lkmminaufasilkom/",
-    featured: true
-  },
-  {
-    title: "IT Bootcamp: Independent Project 2026",
-    start: "2026-10-03T06:00:00",
-    end: "2026-10-04T23:59:00",
-    timeLabel: "selesai",
-    category: "himtika",
-    organizer: "HIMTIKA Unsika",
-    location: "Saung Endah, Karawang",
-    description: "Kegiatan pengenalan lingkungan Informatika Unsika untuk mengembangkan hardskill dan softskill serta membanung kebersamaan antarmahasiswa baru.",
-    dialogContent: `
+      image: "./assets/images/events/bg-sosialisasi-itb.webp",
+      link: "https://www.instagram.com/himtika_unsika/",
+      featured: true,
+    },
+    {
+      title: "LKMM X Inaugurasi",
+      start: "2026-09-19T06:00:00",
+      end: "2026-09-20T23:59:00",
+      timeLabel: "selesai",
+      category: "bem",
+      organizer: "BEM Fasilkom Unsika",
+      location: "Agro Kartika, Karawang",
+      description:
+        "Program pembinaan dan pengenalan mahasiswa baru Fasilkom Unsika angkatan 2026 yang bertujuan membekali pengetahuan, keterampilan, dan sikap dalam manajemen organisasi sekaligus menumbuhkan rasa kekeluargaan, kebersamaan, dan keakraban antar mahasiswa dalam lingkungan Fasilkom.",
+      dialogContent: ``,
+      image: "./assets/images/events/bg-lkmm.webp",
+      link: "https://www.instagram.com/lkmminaufasilkom/",
+      featured: true,
+    },
+    {
+      title: "IT Bootcamp: Independent Project 2026",
+      start: "2026-10-03T06:00:00",
+      end: "2026-10-04T23:59:00",
+      timeLabel: "selesai",
+      category: "himtika",
+      organizer: "HIMTIKA Unsika",
+      location: "Saung Endah, Karawang",
+      description:
+        "Kegiatan pengenalan lingkungan Informatika Unsika untuk mengembangkan hardskill dan softskill serta membanung kebersamaan antarmahasiswa baru.",
+      dialogContent: `
       <h3><strong>📢 [ 𝐈𝐓 𝐁𝐎𝐎𝐓𝐂𝐀𝐌𝐏: 𝐈𝐍𝐃𝐄𝐏𝐄𝐍𝐃𝐄𝐍𝐓 𝐏𝐑𝐎𝐉𝐄𝐂𝐓 𝟐𝟎𝟐𝟔 ] 📢</strong></h3><br>
 
       <p>Halo Informatics 2026! 👋🏻 </p>
@@ -804,20 +815,20 @@ const calendarEvents = Object.freeze([
         #FasilkomUnsika
       </p>
     `,
-    image: "./assets/images/events/bg-itb.webp",
-    link: "https://www.instagram.com/himtika_unsika/",
-    featured: true
-  },
-  {
-    title: "Pre-order Merchandise Dies Natalis HIMTIKA IX",
-    start: "2026-10-06T06:00:00",
-    end: "2026-10-11T23:59:00",
-    timeLabel: "selesai",
-    category: "himtika",
-    organizer: "HIMTIKA Unsika",
-    location: "Google Form",
-    description: "Open Pre-order merchandise Dies Natalis HIMTIKA IX.",
-    dialogContent: `
+      image: "./assets/images/events/bg-itb.webp",
+      link: "https://www.instagram.com/himtika_unsika/",
+      featured: true,
+    },
+    {
+      title: "Pre-order Merchandise Dies Natalis HIMTIKA IX",
+      start: "2026-10-06T06:00:00",
+      end: "2026-10-11T23:59:00",
+      timeLabel: "selesai",
+      category: "himtika",
+      organizer: "HIMTIKA Unsika",
+      location: "Google Form",
+      description: "Open Pre-order merchandise Dies Natalis HIMTIKA IX.",
+      dialogContent: `
       <h3><strong>🌊[𝐎𝐏𝐄𝐍 𝐏𝐑𝐄-𝐎𝐑𝐃𝐄𝐑 𝐌𝐄𝐑𝐂𝐇𝐀𝐍𝐃𝐈𝐒𝐄 𝐃𝐈𝐄𝐒 𝐍𝐀𝐓𝐀𝐋𝐈𝐒 𝐇𝐈𝐌𝐓𝐈𝐊𝐀 𝐈𝐗] 🌊✨</strong></h3><br>
 
       <span>Hi, Future Sailor! 🌊🐙</span><br>
@@ -891,20 +902,21 @@ const calendarEvents = Object.freeze([
         #KabinetSelaras
       </p>
     `,
-    image: "./assets/images/events/bg-merchandise-diesnat.webp",
-    link: "https://www.instagram.com/diesnatalis.himtika/",
-    featured: true
-  },
-  {
-    title: "Pendaftaran HIMTIKA Awards 2026",
-    start: "2026-10-12T06:00:00",
-    end: "2026-10-14T23:59:00",
-    timeLabel: "selesai",
-    category: "himtika",
-    organizer: "HIMTIKA Unsika",
-    location: "Google Form",
-    description: "Pendaftaran untuk mahasiswa Informatika Unsika yang memiliki pengetahuan dan bakat yang akan menjadi nominasi penghargaan.",
-    dialogContent: `
+      image: "./assets/images/events/bg-merchandise-diesnat.webp",
+      link: "https://www.instagram.com/diesnatalis.himtika/",
+      featured: true,
+    },
+    {
+      title: "Pendaftaran HIMTIKA Awards 2026",
+      start: "2026-10-12T06:00:00",
+      end: "2026-10-14T23:59:00",
+      timeLabel: "selesai",
+      category: "himtika",
+      organizer: "HIMTIKA Unsika",
+      location: "Google Form",
+      description:
+        "Pendaftaran untuk mahasiswa Informatika Unsika yang memiliki pengetahuan dan bakat yang akan menjadi nominasi penghargaan.",
+      dialogContent: `
       <h3><strong>🏆[𝐏𝐄𝐍𝐃𝐀𝐅𝐓𝐀𝐑𝐀𝐍 𝐇𝐈𝐌𝐓𝐈𝐊𝐀 𝐀𝐖𝐀𝐑𝐃𝐒 𝟐𝟎𝟐𝟔]🏆</strong></h3><br>
 
       <p>Halo, Informatics! 🙌🏻</p>
@@ -953,20 +965,21 @@ const calendarEvents = Object.freeze([
         #FasilkomUnsika
       </p>
     `,
-    image: "./assets/images/events/bg-pendaftaran-himtika-award.webp",
-    link: "https://www.instagram.com/diesnatalis.himtika/",
-    featured: true
-  },
-  {
-    title: "Forum Silaturahmi Fasilkom 2026",
-    start: "2026-10-13T14:00:00",
-    end: "2026-10-13T23:59:00",
-    timeLabel: "selesai",
-    category: "bem",
-    organizer: "BEM Fasilkom Unsika",
-    location: "Gedung Fasilkom Lantai 4, Ruang 78",
-    description: "Kegiatan wadah bagi mahasiswa dan civitas akademika Fasilkom untuk tumbuh bersama, mempererat silaturahmi, serta menyampaikan aspirasi dan mencari solusi demi kemajuan Fasilkom.",
-    dialogContent: `
+      image: "./assets/images/events/bg-pendaftaran-himtika-award.webp",
+      link: "https://www.instagram.com/diesnatalis.himtika/",
+      featured: true,
+    },
+    {
+      title: "Forum Silaturahmi Fasilkom 2026",
+      start: "2026-10-13T14:00:00",
+      end: "2026-10-13T23:59:00",
+      timeLabel: "selesai",
+      category: "bem",
+      organizer: "BEM Fasilkom Unsika",
+      location: "Gedung Fasilkom Lantai 4, Ruang 78",
+      description:
+        "Kegiatan wadah bagi mahasiswa dan civitas akademika Fasilkom untuk tumbuh bersama, mempererat silaturahmi, serta menyampaikan aspirasi dan mencari solusi demi kemajuan Fasilkom.",
+      dialogContent: `
       <h3><strong>📢 [𝐅𝐎𝐑𝐔𝐌 𝐒𝐈𝐋𝐀𝐓𝐔𝐑𝐀𝐇𝐌𝐈 𝐅𝐀𝐒𝐈𝐋𝐊𝐎𝐌 𝟐𝟎𝟐𝟔] 📢</strong></h3><br>
 
       <p>Halo Fasilkomers! 🙌🏻</p>
@@ -1008,20 +1021,21 @@ const calendarEvents = Object.freeze([
         #TogetherMovingForward
       </p>
     `,
-    image: "./assets/images/events/bg-forum-silaturahmi-fasilkom-2026.webp",
-    link: "https://www.instagram.com/bemfasilkomunsika/",
-    featured: true
-  },
-  {
-    title: "Open Regist Pendaftaran Webinar Nasional Dies Natalis HIMTIKA IX",
-    start: "2026-10-12T06:00:00",
-    end: "2026-10-24T23:59:00",
-    timeLabel: "selesai",
-    category: "himtika",
-    organizer: "HIMTIKA Unsika",
-    location: "Google Form",
-    description: "Pembukaan pendaftaran webinar nasional dies natalis HIMTIKA yang ke-9.",
-    dialogContent: `
+      image: "./assets/images/events/bg-forum-silaturahmi-fasilkom-2026.webp",
+      link: "https://www.instagram.com/bemfasilkomunsika/",
+      featured: true,
+    },
+    {
+      title: "Open Regist Pendaftaran Webinar Nasional Dies Natalis HIMTIKA IX",
+      start: "2026-10-12T06:00:00",
+      end: "2026-10-24T23:59:00",
+      timeLabel: "selesai",
+      category: "himtika",
+      organizer: "HIMTIKA Unsika",
+      location: "Google Form",
+      description:
+        "Pembukaan pendaftaran webinar nasional dies natalis HIMTIKA yang ke-9.",
+      dialogContent: `
       <h3><strong>🌊 [EXTENDED REGISTRATION — WEBINAR NASIONAL DIES NATALIS HIMTIKA IX] 🌊</strong></h3><br>
 
       <p>Hi, Future Sailor! ⚓✨</p>
@@ -1083,20 +1097,21 @@ const calendarEvents = Object.freeze([
         #FasilkomUnsika
       </p>
     `,
-    image: "./assets/images/events/bg-open-regist-webinar-diesnat.webp",
-    link: "https://www.instagram.com/diesnatalis.himtika/",
-    featured: true
-  },
-  {
-    title: "Kelas Offline Study Club",
-    start: "2026-10-16T09:00:00",
-    end: "2026-10-16T23:59:00",
-    timeLabel: "selesai",
-    category: "himtika",
-    organizer: "HIMTIKA Unsika",
-    location: "Gedung Fasilkom, Lantai 4",
-    description: "Wadah belajar bareng, berdiskusi, dan saling bertukar cerita seputar dunia perkuliahan secara santai dan interaktif yang diselenggarakan Study Club HIMTIKA!",
-    dialogContent: `
+      image: "./assets/images/events/bg-open-regist-webinar-diesnat.webp",
+      link: "https://www.instagram.com/diesnatalis.himtika/",
+      featured: true,
+    },
+    {
+      title: "Kelas Offline Study Club",
+      start: "2026-10-16T09:00:00",
+      end: "2026-10-16T23:59:00",
+      timeLabel: "selesai",
+      category: "himtika",
+      organizer: "HIMTIKA Unsika",
+      location: "Gedung Fasilkom, Lantai 4",
+      description:
+        "Wadah belajar bareng, berdiskusi, dan saling bertukar cerita seputar dunia perkuliahan secara santai dan interaktif yang diselenggarakan Study Club HIMTIKA!",
+      dialogContent: `
       <h3><strong>​🚀✨ [FIRST OFFLINE MEETING STUDY CLUB HIMTIKA 2026] ✨🚀</strong></h3><br>
 
       <p>​Halo, Star-Seekers dan Sobat Informatics! 👋🏻🌟</p>
@@ -1146,20 +1161,21 @@ const calendarEvents = Object.freeze([
         #FasilkomUnsika
       </p>
     `,
-    image: "./assets/images/events/bg-kelas-offline-study-club.webp",
-    link: "https://www.instagram.com/studyclub_id/",
-    featured: true
-  },
-  {
-    title: "Malam Puncak Dies Natalis HIMTIKA IX",
-    start: "2026-10-17T17:00:00",
-    end: "2026-10-17T23:59:00",
-    timeLabel: "selesai",
-    category: "himtika",
-    organizer: "HIMTIKA Unsika",
-    location: "Techno Mart Sky Garden",
-    description: "Rangkaian acara untuk memperingati hari lahir HIMTIKA ke-9 dalam rangka mempererat silaturahmi seluruh mahasiswa Informatika.",
-    dialogContent: `
+      image: "./assets/images/events/bg-kelas-offline-study-club.webp",
+      link: "https://www.instagram.com/studyclub_id/",
+      featured: true,
+    },
+    {
+      title: "Malam Puncak Dies Natalis HIMTIKA IX",
+      start: "2026-10-17T17:00:00",
+      end: "2026-10-17T23:59:00",
+      timeLabel: "selesai",
+      category: "himtika",
+      organizer: "HIMTIKA Unsika",
+      location: "Techno Mart Sky Garden",
+      description:
+        "Rangkaian acara untuk memperingati hari lahir HIMTIKA ke-9 dalam rangka mempererat silaturahmi seluruh mahasiswa Informatika.",
+      dialogContent: `
       <h3><strong>🌊 [𝐓𝐇𝐄 𝐅𝐈𝐍𝐀𝐋 𝐖𝐀𝐕𝐄𝐒 ー 𝐃𝐈𝐄𝐒 𝐍𝐀𝐓𝐀𝐋𝐈𝐒 𝐇𝐈𝐌𝐓𝐈𝐊𝐀 𝐈𝐗] 🌊</strong></h3><br>
 
       <span>Hi, Future Sailor! 🌊🐙</span><br>
@@ -1219,20 +1235,21 @@ const calendarEvents = Object.freeze([
         #FasilkomUnsika
       </p>
     `,
-    image: "./assets/images/events/bg-malam-puncak-diesnat.webp",
-    link: "https://www.instagram.com/diesnatalis.himtika/",
-    featured: true
-  },
-  {
-    title: "Seminar Nasional Fasilkom Fest 2026",
-    start: "2026-10-24T07:00:00",
-    end: "2026-10-24T23:59:00",
-    timeLabel: "selesai",
-    category: "bem",
-    organizer: "BEM Fasilkom Unsika",
-    location: "Hybrid: Aula Husni Hamid (Offline) & Zoom Meeting (Online)",
-    description: "Seminar Nasional yang diadakan oleh Fasilkom dengan rangkaian acara materi serta pameran IT",
-    dialogContent: `
+      image: "./assets/images/events/bg-malam-puncak-diesnat.webp",
+      link: "https://www.instagram.com/diesnatalis.himtika/",
+      featured: true,
+    },
+    {
+      title: "Seminar Nasional Fasilkom Fest 2026",
+      start: "2026-10-24T07:00:00",
+      end: "2026-10-24T23:59:00",
+      timeLabel: "selesai",
+      category: "bem",
+      organizer: "BEM Fasilkom Unsika",
+      location: "Hybrid: Aula Husni Hamid (Offline) & Zoom Meeting (Online)",
+      description:
+        "Seminar Nasional yang diadakan oleh Fasilkom dengan rangkaian acara materi serta pameran IT",
+      dialogContent: `
       <h3><strong>📢 𝐒𝐄𝐌𝐈𝐍𝐀𝐑 𝐍𝐀𝐒𝐈𝐎𝐍𝐀𝐋 𝐅𝐀𝐒𝐈𝐋𝐊𝐎𝐌 𝐅𝐄𝐒𝐓 𝟐𝟎𝟐𝟔 𝐒𝐄𝐆𝐄𝐑𝐀 𝐇𝐀𝐃𝐈𝐑! 📢</strong></h3><br>
 
       <p>Halo, Fellas! 👋🏻</p>
@@ -1294,20 +1311,21 @@ const calendarEvents = Object.freeze([
         #TogetherMovingForward
       </p>
     `,
-    image: "./assets/images/events/bg-seminar-fasilkom-fest.webp",
-    link: "https://www.instagram.com/fasilkom.fest/",
-    featured: true
-  },
-  {
-    title: "Study Up Sharing Sesion by Study Club",
-    start: "2026-10-23T08:00:00",
-    end: "2026-10-23T23:59:00",
-    timeLabel: "selesai",
-    category: "himtika",
-    organizer: "HIMTIKA Unsika",
-    location: "Gedung Fasilkom, Lantai 4",
-    description: "Wadah belajar bareng, berdiskusi, dan saling bertukar cerita seputar dunia perkuliahan secara santai dan interaktif yang diselenggarakan Study Club HIMTIKA!",
-    dialogContent: `
+      image: "./assets/images/events/bg-seminar-fasilkom-fest.webp",
+      link: "https://www.instagram.com/fasilkom.fest/",
+      featured: true,
+    },
+    {
+      title: "Study Up Sharing Sesion by Study Club",
+      start: "2026-10-23T08:00:00",
+      end: "2026-10-23T23:59:00",
+      timeLabel: "selesai",
+      category: "himtika",
+      organizer: "HIMTIKA Unsika",
+      location: "Gedung Fasilkom, Lantai 4",
+      description:
+        "Wadah belajar bareng, berdiskusi, dan saling bertukar cerita seputar dunia perkuliahan secara santai dan interaktif yang diselenggarakan Study Club HIMTIKA!",
+      dialogContent: `
       <h3><strong>​🚀✨ [SHARING SESSION STUDY UP BY STUDY CLUB HIMTIKA 2026] ✨🚀</strong></h3><br>
 
       <p>​Halo, Star-Seekers dan Sobat Informatics! 👋🏻🌟</p>
@@ -1363,20 +1381,21 @@ const calendarEvents = Object.freeze([
         #FasilkomUnsika
       </p>
     `,
-    image: "./assets/images/events/bg-study-up.webp",
-    link: "https://www.instagram.com/studyclub_id/",
-    featured: true
-  },
-  {
-    title: "Webinar Nasional Dies Natalis HIMTIKA IX",
-    start: "2026-10-25T08:00:00",
-    end: "2026-10-25T23:59:00",
-    timeLabel: "selesai",
-    category: "himtika",
-    organizer: "HIMTIKA Unsika",
-    location: "Zoom Meeting (Online)",
-    description: "Webinar Nasional Dies Natalis HIMTIKA bertemakan meningkatkan wawasan tentang Cybersecurity, Digital Safety, dan penggunaan AI yang bertanggung jawab!",
-    dialogContent: `
+      image: "./assets/images/events/bg-study-up.webp",
+      link: "https://www.instagram.com/studyclub_id/",
+      featured: true,
+    },
+    {
+      title: "Webinar Nasional Dies Natalis HIMTIKA IX",
+      start: "2026-10-25T08:00:00",
+      end: "2026-10-25T23:59:00",
+      timeLabel: "selesai",
+      category: "himtika",
+      organizer: "HIMTIKA Unsika",
+      location: "Zoom Meeting (Online)",
+      description:
+        "Webinar Nasional Dies Natalis HIMTIKA bertemakan meningkatkan wawasan tentang Cybersecurity, Digital Safety, dan penggunaan AI yang bertanggung jawab!",
+      dialogContent: `
       <h3><strong>🌊 [EXTENDED REGISTRATION — WEBINAR NASIONAL DIES NATALIS HIMTIKA IX] 🌊</strong></h3><br>
 
       <p>Hi, Future Sailor! ⚓✨</p>
@@ -1438,20 +1457,21 @@ const calendarEvents = Object.freeze([
         #FasilkomUnsika
       </p>
     `,
-    image: "./assets/images/events/bg-open-regist-webinar-diesnat.webp",
-    link: "https://www.instagram.com/diesnatalis.himtika/",
-    featured: true
-  },
-  {
-    title: "Seminar Nasional Legislative School 2026",
-    start: "2026-10-31T08:30:00",
-    end: "2026-10-31T23:59:00",
-    timeLabel: "selesai",
-    category: "blm",
-    organizer: "BLM Fasilkom Unsika",
-    location: "Galeri Pemda Karawang",
-    description: "Legislative School adalah kegiatan seperti seminar/talkshow perihal ranah legislatif dimana akan mengundang narasumber yang ahli dibidangnya seperti anggota DPR/DPRD serta akan ada simulasi persidangan di akhir kegiatan.",
-    dialogContent: `
+      image: "./assets/images/events/bg-open-regist-webinar-diesnat.webp",
+      link: "https://www.instagram.com/diesnatalis.himtika/",
+      featured: true,
+    },
+    {
+      title: "Seminar Nasional Legislative School 2026",
+      start: "2026-10-31T08:30:00",
+      end: "2026-10-31T23:59:00",
+      timeLabel: "selesai",
+      category: "blm",
+      organizer: "BLM Fasilkom Unsika",
+      location: "Galeri Pemda Karawang",
+      description:
+        "Legislative School adalah kegiatan seperti seminar/talkshow perihal ranah legislatif dimana akan mengundang narasumber yang ahli dibidangnya seperti anggota DPR/DPRD serta akan ada simulasi persidangan di akhir kegiatan.",
+      dialogContent: `
       <h3><strong>📢 𝐏𝐄𝐍𝐃𝐀𝐅𝐓𝐀𝐑𝐀𝐍 𝐒𝐄𝐌𝐈𝐍𝐀𝐑 𝐍𝐀𝐒𝐈𝐎𝐍𝐀𝐋 𝐋𝐄𝐆𝐈𝐒𝐋𝐀𝐓𝐈𝐕𝐄 𝐒𝐂𝐇𝐎𝐎𝐋 𝟐𝟎𝟐𝟔 𝐓𝐄𝐋𝐀𝐇 𝐃𝐈𝐁𝐔𝐊𝐀 📢</strong></h3><br>
 
       <span>​Halo, rekan-rekan Mahasiswa dan Masyarakat Umum!</span>
@@ -1493,20 +1513,68 @@ const calendarEvents = Object.freeze([
         <span><a href="https://wa.me/6281289372757">https://wa.me/6281289372757</a> (Najwa)</span>
       </p>
     `,
-    image: "./assets/images/events/bg-seminar-legislative-school.webp",
-    link: "https://www.instagram.com/ls.fasilkomunsika/",
-    featured: true
-  },
-  {
-    title: "Musyawarah Anggota HIMTIKA X",
-    start: "2026-11-21T07:30:00",
-    end: "2026-11-21T23:59:00",
-    timeLabel: "selesai",
-    category: "himtika",
-    organizer: "HIMTIKA Unsika",
-    location: "Gedung KNPI Karawang",
-    description: "Kegiatan momentum bagi seluruh anggota untuk melakukan evaluasi kepengurusan, menyampaikan aspirasi, serta menentukan arah dan kepemimpinan HIMTIKA untuk periode selanjutnya.",
-    dialogContent: `
+      image: "./assets/images/events/bg-seminar-legislative-school.webp",
+      link: "https://www.instagram.com/ls.fasilkomunsika/",
+      featured: true,
+    },
+    {
+      title: "FASILKOM CUP X FEVORIA 2026",
+      start: "2026-11-06T14:00:00",
+      end: "2026-11-06T23:59:00",
+      timeLabel: "selesai",
+      category: "bem",
+      organizer: "BEM Fasilkom Unsika",
+      location: "Kaze Headquarter Karawang",
+      description:
+        "Perayaan yang diadakan oleh BEM Fasilkom Unsika untuk menghadirkan semangat, bakat, dan kreativitas dalam satu panggung.",
+      dialogContent: `
+      <h3>🎮✨ IT'S THE DAY! FASILKOM CUP X FEVORIA 2026 IS TODAY! ✨🎶</h3>
+
+      <p><i>The wait is finally over!</i></p>
+
+      <p>Hari yang kita tunggu-tunggu akhirnya tiba! Dengan tema <i>“Beyond The Game: Compete, Create, Connect”</i>, hari ini kita akan berkompetisi, berkreasi, dan terkoneksi dalam keseruan FASILKOM CUP X FEVORIA 2026!</p>
+
+      <span><strong>Jangan sampai telat, langsung merapat!</strong></span><br>
+
+      <p>
+      <span><strong>📅 : Jumat, 06 November 2026</strong></span><br>
+      <span><strong>⏰ : 14.00 - Selesai </strong></span><br>
+      <span>
+        <strong> 📍 : Kaze Headquarter Karawang </strong><br>
+        <span>(<a href="https://maps.app.goo.gl/FdFBw4XEHQRacppYA">https://maps.app.goo.gl/FdFBw4XEHQRacppYA</a>)</span>
+      </span><br>
+      </p>
+
+      <p>
+      Siapkan energi terbaikmu, ajak teman-temanmu, dan jadilah bagian dari sejarah hari ini!
+      </p>
+      <p>
+      <i>Beyond The Game. Compete, Create, Connect!</i>
+      </p>
+      <p>
+      See you TODAY at FASILKOM CUP X FEVORIA 2026! 🔥
+      </p>
+      <p>
+        #FCUPxFevoria2026<br>
+        #Fevoria2026<br>
+        #BemFasilkom2026
+      </p>
+    `,
+      image: "./assets/images/events/bg-fcup-x-fevoria.webp",
+      link: "https://www.instagram.com/fevoria_2026/",
+      featured: true,
+    },
+    {
+      title: "Musyawarah Anggota HIMTIKA X",
+      start: "2026-11-21T07:30:00",
+      end: "2026-11-21T23:59:00",
+      timeLabel: "selesai",
+      category: "himtika",
+      organizer: "HIMTIKA Unsika",
+      location: "Gedung KNPI Karawang",
+      description:
+        "Kegiatan momentum bagi seluruh anggota untuk melakukan evaluasi kepengurusan, menyampaikan aspirasi, serta menentukan arah dan kepemimpinan HIMTIKA untuk periode selanjutnya.",
+      dialogContent: `
       <h3><strong>[ 𝐏𝐄𝐋𝐀𝐊𝐒𝐀𝐍𝐀𝐀𝐍 𝐌𝐔𝐒𝐘𝐀𝐖𝐀𝐑𝐀𝐇 𝐀𝐍𝐆𝐆𝐎𝐓𝐀 𝐇𝐈𝐌𝐓𝐈𝐊𝐀 𝐗 ]</strong></h3><br>
 
       <p>​Halo, Sobat Informatics! 👋🏻</p>
@@ -1534,10 +1602,12 @@ const calendarEvents = Object.freeze([
         <span>Al Fazran Dwi Nugraha (<a href="https://wa.me/6285817726207">https://wa.me/6285817726207</a>)</span>
       </p>
     `,
-    image: "./assets/images/events/bg-musang.webp",
-    link: "https://www.instagram.com/himtika_unsika/",
-    featured: true
-  }
-].map((event, index) => ({
-  id: `evt-${String(index + 1).padStart(3, "0")}`, ...event
-})));
+      image: "./assets/images/events/bg-musang.webp",
+      link: "https://www.instagram.com/himtika_unsika/",
+      featured: true,
+    },
+  ].map((event, index) => ({
+    id: `evt-${String(index + 1).padStart(3, "0")}`,
+    ...event,
+  })),
+);
