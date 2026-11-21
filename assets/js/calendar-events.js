@@ -1496,6 +1496,47 @@ const calendarEvents = Object.freeze([
     image: "./assets/images/events/bg-seminar-legislative-school.webp",
     link: "https://www.instagram.com/ls.fasilkomunsika/",
     featured: true
+  },
+  {
+    title: "Musyawarah Anggota HIMTIKA X",
+    start: "2026-11-21T07:30:00",
+    end: "2026-11-21T23:59:00",
+    timeLabel: "selesai",
+    category: "himtika",
+    organizer: "HIMTIKA Unsika",
+    location: "Gedung KNPI Karawang",
+    description: "Kegiatan momentum bagi seluruh anggota untuk melakukan evaluasi kepengurusan, menyampaikan aspirasi, serta menentukan arah dan kepemimpinan HIMTIKA untuk periode selanjutnya.",
+    dialogContent: `
+      <h3><strong>[ 𝐏𝐄𝐋𝐀𝐊𝐒𝐀𝐍𝐀𝐀𝐍 𝐌𝐔𝐒𝐘𝐀𝐖𝐀𝐑𝐀𝐇 𝐀𝐍𝐆𝐆𝐎𝐓𝐀 𝐇𝐈𝐌𝐓𝐈𝐊𝐀 𝐗 ]</strong></h3><br>
+
+      <p>​Halo, Sobat Informatics! 👋🏻</p>
+      <p>
+        ​Musyawarah Anggota HIMTIKA X akan segera dilaksanakan sebagai forum resmi organisasi yang menjadi wadah pengambilan keputusan bersama.
+      </p>
+      <p>
+        ​Kegiatan ini menjadi momentum bagi seluruh anggota untuk melakukan evaluasi kepengurusan, menyampaikan aspirasi, serta menentukan arah dan kepemimpinan HIMTIKA untuk periode selanjutnya.
+      </p>
+      <p>
+        Kami mengajak seluruh mahasiswa aktif informatika untuk hadir dan berpartisipasi aktif dalam menyukseskan Musyawarah Anggota HIMTIKA X.
+      </p>
+      
+      <span><strong>​📌 Catat Tanggalnya:</strong></span><br>
+      <p>
+      <span><strong>🗓️ Tanggal: Sabtu, 21 November 2026</strong></span><br>
+      <span><strong>⏰ Waktu: 07.30 WIB - Selesai</strong></span><br>
+      <span><strong>📍 Lokasi: Gedung KNPI Karawang</strong></span><br>
+      <span><strong>👔 Dresscode: Bebas Sopan</strong></span>
+      </p>
+
+      <p>
+        <strong><i>Contact Person: </i></strong><br>
+        <span>Ahmad Haikal (<a href="https://wa.me/6285155334324">https://wa.me/6285155334324</a>)</span><br>
+        <span>Al Fazran Dwi Nugraha (<a href="https://wa.me/6285817726207">https://wa.me/6285817726207</a>)</span>
+      </p>
+    `,
+    image: "./assets/images/events/bg-musang.webp",
+    link: "https://www.instagram.com/himtika_unsika/",
+    featured: true
   }
 ].map((event, index) => ({
   id: `evt-${String(index + 1).padStart(3, "0")}`, ...event
